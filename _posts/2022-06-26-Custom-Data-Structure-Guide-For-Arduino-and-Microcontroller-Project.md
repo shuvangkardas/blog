@@ -19,7 +19,8 @@ Yes, you can use these variables as a global variable and build your whole syste
 void sendData(int devId, uint32 time, foat temp, float hum)
 {
     //code for sending data to the server
-}```
+}
+```
 
 See!, you have to pass a bunch of variables to design a send function. When you have a lot of data, it would be very difficult to deal with. Of course, you can put all the variables into an array and pass the pointer. But that is less intuitive. Also, you can use a global variable for the data and use that variable in the send function. Remember one thing, the more you use global variables in your system, the more your code loses readability and portability. Also global variable performs slower than the local variable. So it is not a good programming practice to use many global variables in any project. Of course, you cannot neglect global variables in embedded system design because you also have to care about the RAM. Nevertheless, you should avoid using too many global variables.
 
@@ -48,6 +49,7 @@ Now the question is how can you use this simple data structure to modularize you
 
 ### Read Sensor Data
 Let’s consider that you have implemented these functions to read all the sensors and store the variables. You also performed unit testing on these functions to make sure everything is working fine.
+
 ```c
 int getDeviceId();
 uint32_t getUnixTime();
@@ -117,7 +119,8 @@ for(uint8_t i= 0; i< 60; i++)
 }
 
 ```
-See, you just need to do one single change to get the code memory efficient and faster than before. Now you need to pass the pointer of each `struct sensorData_t` variable. If you use `&` operator before any variable, it means the address of that variable, not the variable itself. In this way, you can pass the pointer(address) of the variable.
+
+See!, you just need to do one single change to get the code memory efficient and faster than before. Now you need to pass the pointer of each `struct sensorData_t` variable. If you use `&` operator before any variable, it means the address of that variable, not the variable itself. In this way, you can pass the pointer(address) of the variable.
 
 ### Print Sensor data
 Now you have a custom data structure for sensor data payload. Leveraging the structure, you can build a bunch of functions for doing the different tasks on the sensor data. For debugging the data, you need a print function. So that you can use the same function throughout the whole codebase for debugging the sensor data. Let’s see, how can we write such a function for doing such a task? For demonstrating the printing, I am going to use the Arduino default print function, but the method is the same for different microcontroller platforms.
