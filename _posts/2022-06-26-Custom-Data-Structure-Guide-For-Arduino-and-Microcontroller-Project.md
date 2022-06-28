@@ -24,7 +24,7 @@ void sendData(int devId, uint32 time, foat temp, float hum)
 
 See!, you have to pass a bunch of variables to design a send function. When you have a lot of data, it would be very difficult to deal with. Of course, you can put all the variables into an array and pass the pointer. But that is less intuitive. Also, you can use a global variable for the data and use that variable in the send function. Remember one thing, the more you use global variables in your system, the more your code loses readability and portability. Also global variable performs slower than the local variable. So it is not a good programming practice to use many global variables in any project. Of course, you cannot neglect global variables in embedded system design because you also have to care about the RAM. Nevertheless, you should avoid using too many global variables.
 
-### Design custom data structure
+### How do you design custom data structure?
 Designing custom data structures in C and C++ is fairly straightforward. You can use `structure` to design the data structure for your toy data acquisition system.
 
 ```c
@@ -47,7 +47,7 @@ struct sensorData_t sensorData2
 
 Now the question is how can you use this simple data structure to modularize your whole system? We are going to explore that in the subsequent discussion. 
 
-### Read Sensor Data
+### How to apply data structure for building fuctions
 Let’s consider that you have implemented these functions to read all the sensors and store the variables. You also performed unit testing on these functions to make sure everything is working fine.
 
 ```c
@@ -119,7 +119,7 @@ for(uint8_t i= 0; i< 60; i++)
 
 See!, you just need to do one single change to get the code memory efficient and faster than before. Now you need to pass the pointer of each `struct sensorData_t` variable. If you use `&` operator before any variable, it means the address of that variable, not the variable itself. In this way, you can pass the pointer(address) of the variable.
 
-### Print Sensor data
+### Ease debugging using data structure
 Now you have a custom data structure for sensor data payload. Leveraging the structure, you can build a bunch of functions for doing the different tasks on the sensor data. For debugging the data, you need a print function. So that you can use the same function throughout the whole codebase for debugging the sensor data. Let’s see, how can we write such a function for doing such a task? For demonstrating the printing, I am going to use the Arduino default print function, but the method is the same for different microcontroller platforms.
 
 ```c
@@ -135,4 +135,4 @@ printSensor(struct sensorData_t *sensorPtr)
 
 Voila! you can write any function using the same data structure. Now you can organize our code in a good manner no matter how many sensors you want to log. Another good point of using such a design pattern is that the code would be portable and manageable. Imagine, next time you need to add another sensor such as a voltage sensor, you don’t have to change your whole codebase. You will just add the variable inside your data structure and makes changes inside the function. You don't have to work on the upper layer function that you have already built on top of this file.
 
-In the next part, I will add more functionality using the same data structure. Happy coding!! and don't forget to subscribe to my channel.
+In the next part, I will add more functionality using the same data structure. Happy coding!! and don't forget to subscribe to my [YouTube](https://www.youtube.com/shuvangkarDas) channel.
