@@ -61,14 +61,12 @@ Now I am going to utilize these functions to build a sensor read function for yo
 
 ```c
 void readSensors(struct sensorData_t sensorData)
-
 {
     sensorData.deviceId = getDeviceId();
     sensorData.unixTime= getUnixTime();
     sensorData.temperature = readTemperature();
     sensorData.humidity = readHumidity();
 }
-
 ```
 
 Now, you can write the `readSensor()` function to collect all the sensor's data and metadata. Consider, in your system, you are collecting data every second and after a one-minute interval, you will send all the data to the server because you want to reduce the communication burden. Moreover, it is not efficient to communicate with the server every second.
@@ -83,7 +81,6 @@ for(uint8_t i= 0; i< 60; i++)
     //using delay is not efficient. This is just for demo
     delay(1000); 
 }
-
 ```
 
 After one minute interval, you will have a big buffer that contains data for the last 60 seconds. Here, the big! is considered concerning a microcontroller. This is how you simplify all the data management using a simple structure. Most newbies in the embedded systems are supposed to use big arrays for different variables. Now you can send this `sensorBuffer` using any communication channels such as a Wi-Fi module(ESP32), SIM module(SIM800L), or any custom radio module such as nRF24L01, ZigBee, etc.
@@ -92,7 +89,7 @@ But still, there is a problem with this approach. Whenever your data structure h
 
 You can solve this problem easily by leveraging the pointer concept. If you are afraid of hearing the word pointer, I was in your shoe a few years back. Let me tell you a secret about the pointer. Pointer just keeps the location information of variable. That means the size of a pointer is the same irrespective of data type. For example, For `int` pointer variable size and a `float` pointer variable size is the same, 2 bytes for AVR/Arduino Uno microcontroller. I will write in detail about the pointer and plan to make a YouTube video on my channel. Up to this point, you don't have to worry much about pointer. 
 
-Let’s redefine the `void readSensors(struct sensorData_t sensorData)` function using pointer. You need to remember one thing, in the case of accessing a member of a structure, normally I useed dot(`.` )operator before. For structure pointer, you have to use the `->` operator for accessing members. That's the little change you have to accept for now, if you are afraid of the pointer. I believe you can do this. 
+Let’s redefine the `void readSensors(struct sensorData_t sensorData)` function using pointer. You need to remember one thing, in the case of accessing a member of a structure, before I useed dot(`.` )operator. For structure pointer, you have to use the right arrow( `->` )operator for accessing members. That's the little change you have to accept for now, if you are afraid of the pointer. I believe you can do this. 
 
 ```c
 void readSensors(struct sensorData_t *sensorPtr)
@@ -106,7 +103,7 @@ void readSensors(struct sensorData_t *sensorPtr)
 
 ```
 
-Yeah!!, now see, the new `readSensors()` function takes the pointer of the `struct sensorData_t` type as input. If you analyze the size of input that should not be more than 4 bytes depending on the CPU architecture. For the AVR microcontroller, the pointer size is 2 bytes. That is far less than the previous 14 bytes as whole structure input. Let’s rewrite the previous code for reading sensor data in 60 seconds intervals.
+Yeah!! now see, the new `readSensors()` function takes the pointer of the `struct sensorData_t` type as input. If you analyze the size of input that should not be more than 4 bytes depending on the CPU architecture. For the AVR microcontroller, the pointer size is 2 bytes. That is far less than the previous 14 bytes as whole structure input. Let’s rewrite the previous code for reading sensor data in 60 seconds intervals.
 
 ```c
 //for 60 seconds 60 buffers of sensorData_t 
@@ -128,14 +125,12 @@ Now you have a custom data structure for sensor data payload. Leveraging the str
 ```c
 printSensor(struct sensorData_t *sensorPtr)
 {
-
     Serial.println(F("<---------Sensor Data----------------->"));
     Serial.print(F("Time: ")); Serial.println(sensorPtr-> unixTime);
     Serial.print(F("Device ID: "));Serial.println(sensorPtr -> deviceId);
     Serial.print(F("Temperature: "));Serial.println(sensorPtr -> temperature)
     Serial.print(F("Humidity: "));Serial.println(sensorPtr -> humidity)
 }
-
 ```
 
 Voila! you can write any function using the same data structure. Now you can organize our code in a good manner no matter how many sensors you want to log. Another good point of using such a design pattern is that the code would be portable and manageable. Imagine, next time you need to add another sensor such as a voltage sensor, you don’t have to change your whole codebase. You will just add the variable inside your data structure and makes changes inside the function. You don't have to work on the upper layer function that you have already built on top of this file.
