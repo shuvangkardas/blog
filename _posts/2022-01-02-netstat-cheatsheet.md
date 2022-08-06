@@ -1,8 +1,7 @@
 `netstat` is used to list out all the network(socket) connections of a system. It is a very useful tool for checking system safety.
-Here is the list of all the possible flags that we can use with the `netstat` command.
 
 ## Flags
-
+Here is the list of all the possible flags that we can use with the `netstat` command.
 -   `-a` list all connection
 -   `-n` disable DNS lookup
 -   `-t` list only TCP connection
@@ -14,7 +13,6 @@ Here is the list of all the possible flags that we can use with the `netstat` co
 -   `-ie` to print a human-friendly version of the interface
 
 ## Example of `netstat` commands
-
 -   `netstat -a` List all the connection
 -   `netstat -at` List only TCP connection
 -   `netstat -au` List only UDP connection
@@ -23,7 +21,6 @@ Here is the list of all the possible flags that we can use with the `netstat` co
 -   `netstst -aple | grep ntp` to check any running program like NTP, SMTP, HTTP, etc.
 
 ## Understand `netstat` output
-
 The `netstat` output provides four basic columns.
 Proto, Local Address, Foreign Address and State
 1. **Proto:** The name of the protocol (TCP or UDP)
