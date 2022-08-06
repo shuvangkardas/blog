@@ -5,7 +5,7 @@ At that time, I was working on a IoT sensor node project. The system had a base 
 2. Sensor node read data from flash memory after 1 minutes and makes a packet and sends to the base station using nRF24L01 RF module. This has SPI and RF communications
 3. The base station reads sensor node data packet using SPI and store in flash memory in SPI protocol. 
 The figure below demonstrates the communication scenarios. 
-![Communication in IoT Embedded Project](Pasted-image-20220806113242.png)
+![Communication in IoT Embedded Project](/assets/images/Pasted-image-20220806113242.png)
 In the whole data path, there are 4 layers of SPI communication and one layer of RF communication. The nRF24L01 module uses CRC in its RF communication protocol, therefore you can consider that there is no error in nRF24L01 communication. If do, I cannot see the data at the base station. 
 
 So one day, while I was checking data at the base station, I found  lot of garbage data coming from the sensor node. I checked all four layers of SPI communication protocol in the whole path from sensor node to the base station. I could not figure out which communication layer injecting noise into the data. After one week I got frustrated. Later, I and Shakil, one of my fellow junior engineers figured out that the main culprit was the base station PCB. The base station PCB has problem in its SPI lines, so it was injecting garbage data. Data is ok up to Base station radio. While the base station MCU reading data from the radio, the data was getting into garbage due to the SPI PCB tracing.
