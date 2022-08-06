@@ -59,6 +59,4 @@ os.chdir(r"/content/drive/My Drive/dataset_folder")
 Another important point you need to remember all the time while working with ML. Sometimes you download the dataset and feed that from the local directory. When you pass our model to someone, it kind of breaks the code. If the dataset is available online, don’t download it into your drive and load it. Because it will break your code in the future. So it is good practice to load the dataset directly from the URL and process it after that.
 
 ---
-Shuvangkar Das
-2022-01-02
-Potsdam, New York
+Shuvangkar Das,Potsdam, New York
