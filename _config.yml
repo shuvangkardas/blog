@@ -20,7 +20,7 @@ title                    : "Shuvangkar's Blog"
 title_separator          : "-"
 subtitle                 : "Research, Productivity and Engineering"
 name                     : "Shuvangkar Das"
-description              : "Research, Productivity, Lifestyle & Engineering"
+description              : "Research, Productivity, Lifestyle & Engineering" #Just for SEO
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -294,6 +294,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
