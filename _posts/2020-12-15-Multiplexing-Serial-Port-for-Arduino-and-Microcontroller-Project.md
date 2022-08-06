@@ -6,11 +6,11 @@ I used a digital logic IC model 4053(CD4053, 74HC4053) for multiplexing the seri
 1. IC works exactly like an analog switch. Therefore, It can achieve bidirectional communication.
 2. Wide digital input voltage range. Digital 3-15V and analog 12Vp-p
 3.  Low on-resistance 80Ohm typically and high off resistance
-![[/assets/images/Pasted image 20220806101951.png]]
+![Test image 1](/assets/images/Pasted image 20220806101951.png)
 
 For communicating with the SIM800L module you need 3 pins. RX, TX, and another reset. Similarly, for communication with the RS485, you need 3 pins. RX, TX, and another pin for controlling whether the IC will work as TX mode or RX mode. For both of the devices, you need to multiplex three pins. Therefore, 2 triple channel analog multiplexers are a perfect fit for such type of application. The figure below demonstrates the simplified schematic of such a setup. 
 
-![[/assets/images/Pasted image 20220806102012.png]]
+![Test image2](/assets/images/Pasted image 20220806102012.png)
 
 For selecting a channel, here is the pin mapping. 
 1. A,B,C, INH pins are low, X, Y, Z are connected with X0, Y0, Z0
