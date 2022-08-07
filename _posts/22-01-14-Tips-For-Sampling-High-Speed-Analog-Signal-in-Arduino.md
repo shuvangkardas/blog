@@ -43,8 +43,8 @@ void loop()
 //  Serial.println(sensorValue);
 }
 ```
-I have also made a video on the topic on my YouTube channel. You find the video in the link here
-https://youtu.be/lRmQTYLyB6E .  I hope the blog will help. Happy coding!!
+I have also made a video on the topic on my YouTube channel. You find the video in the link [here](https://youtu.be/lRmQTYLyB6E).I hope the blog will help.
+Happy coding!!
 
 ---
 Shuvangkar Das, Potsdam, New York
