@@ -22,3 +22,7 @@ I like the sine wave more than the cos wave because It always starts from zero a
 That's why I and Swati never wait to celebrate happy moments. We always tried to celebrate happy moments instantly. You never know what comes 10 minutes later.
 
 From that opposite pole person, I am on the same pole as her. We get up at 5:00 AM, do everything properly, plan properly, do not procrastinate things, have a good life, maintain a healthy food habit, go for walk every day, tell stories every day after dinner and watch movies frequently, read books daily. Moreover, Not doing bad in my Ph.D. and coursework. Before I believed in the fixed mindset, Now I am improving my growth mindset. Before I had little family time, Now I have enough family time after doing all the professional responsibilities. Before I believe that working hard makes a person successful, Now I believe that working smartly makes people successful. You do not only need a little discipline and planning to manage everything but also need the right partner. I always regret that I should know her earlier. I would be in a better position than I am in now. Thanks a lot to YOU for making my life better and awesome in every possible way. Happy marriage anniversary LOVE <3 . We will be together soon.
+
+Note: 
+I am starting [my newsletter](https://www.getrevue.co/profile/shuvangkar_das)
+Please subscribe to get weekly update.
