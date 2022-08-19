@@ -1,4 +1,4 @@
-![Confusion Matrix,Image Source(Reference 1)](/assets/images/Confusion-Matrix-Fun-Example.png)
+![Confusion Matrix,Image Source Reference 1](/assets/images/Confusion-Matrix-Fun-Example.png)
 
 Every time I read about these four terms i.e. True Positive(TP), True Negative(TN), False Positive(FP), and False Negative, I thought that I got it. Later I get confused and mess up. I guess this happens with you too. Maybe this is the reason these four terms are called confusion matrix or Error Matrix. 
 
