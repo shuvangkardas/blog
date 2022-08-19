@@ -21,7 +21,7 @@ This time the nurse forgetfully swapped the urine sample of the pregnant woman w
 
 ---
 Shuvangkar Das, Potsdam, New York
->Connect with me:
+Connect with me:
 >Twitter: [https://twitter.com/shuvangkar_das](https://twitter.com/shuvangkar_das)
 >LinkedIn: [https://www.linkedin.com/in/ShuvangkarDas/](https://www.linkedin.com/in/ShuvangkarDas)
 >YouTube: [https://www.youtube.com/ShuvangkarDas](https://www.youtube.com/ShuvangkarDas)
