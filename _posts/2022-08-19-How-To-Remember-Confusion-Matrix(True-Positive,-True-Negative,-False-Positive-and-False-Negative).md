@@ -22,6 +22,7 @@ Now Read the two rules again. You will remember the confusion matrix for life.
 
 ---
 Shuvangkar Das, Potsdam, New York
+
 Connect with me:
 Twitter: [https://twitter.com/shuvangkar_das](https://twitter.com/shuvangkar_das)
 LinkedIn: [https://www.linkedin.com/in/ShuvangkarDas/](https://www.linkedin.com/in/ShuvangkarDas)
