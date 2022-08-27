@@ -1,3 +1,13 @@
+---
+categories:
+    - Engineering
+tags:
+    - embedded-system
+    - arduino
+    - microcontroller
+---
+
+
 Most python packages are designed to be compatible with the python-pip package manager. pip is the default CLI for managing python packages. All the popular packages can be installed using pip. But some old package does not support pip installation. In such a case, you have to install the package manually. Actually, the package installation also depends on which python package you are using for your project. In this blog, I will explain three ways of installing python package. 
 
 ## 1. Install package manually

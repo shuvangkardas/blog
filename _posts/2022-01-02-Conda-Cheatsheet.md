@@ -1,3 +1,10 @@
+---
+categories:
+    - Engineering
+tags:
+    - python
+---
+
 The `conda` is the command-line interface tool for managing installations of various packages in Anaconda. Of course, Anaconda has GUI to manage everything. Yet, GUI does not provide all the functionalities and automation facilities. 
 ## `conda` basic commands
 -   `conda clean --all` It clean tarballs garbage create by environments and clean disk space

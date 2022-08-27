@@ -1,4 +1,12 @@
-`netstat` is used to list out all the network(socket) connections of a system. It is a very useful tool for checking system safety.
+---
+categories:
+  - engineering
+tags:
+  - linux
+---
+
+
+netstat is used to list out all the network(socket) connections of a system. It is a very useful tool for checking system safety.
 
 ## Flags
 Here is the list of all the possible flags that we can use with the `netstat` command.

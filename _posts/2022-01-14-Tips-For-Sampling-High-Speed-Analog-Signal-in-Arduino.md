@@ -1,3 +1,12 @@
+---
+categories:
+  - engineering
+tags:
+  - embedded-system
+  - arduino
+---
+
+
 It was 2013. I was doing my undergraduate at the Bangladesh University of Engineering and Technology(BUET). I had a power system course along with a lab course in my second year. I had to develop a hardware project on a power factor improvement plant as the requirement of the lab course. I was very excited about the project as it was my first hardware project as in undergraduate. The very next day I bought a bunch of components for the project. Potential transformer(PT), Current Transformer(PT), ATmega microcontroller, and many discrete components. I eagerly started experimenting with the sensors. As I had the experience of working with microcontrollers beforehand, I started everything smoothly.  
 
 The next day, I started my experiment by sampling a 50Hz sine wave and then transferring the signal into the PC through serial. My main goal was to visualize the 50Hz signal before measuring the current, voltage, and power factor.  But unfortunately, I did not see the sine was as expected. Instead, it was like noise. I looked into the connections and code again and again, but could not figure out any potential flaws. 

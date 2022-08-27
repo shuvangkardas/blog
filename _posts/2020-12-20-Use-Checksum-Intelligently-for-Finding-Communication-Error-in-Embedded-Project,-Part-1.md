@@ -1,3 +1,12 @@
+---
+categories:
+ - Engineering
+tags:
+ - embedded-system
+ - microcontroller
+ - arduino
+---
+
 ![Communication in IoT Embedded Project](/assets/images/Pasted-image-20220806113242.png)
 As an embedded system engineer, I used to deal with lower level communication protocol such as UART, SPI and I2C. I used to trust SPI protocol rather than other protocols. This trust killed my two weeks at the middle of 2020 while working on an IoT sensor node project. Today, I will tell you the story of my weirdest struggle with hardware communication protocols.
 

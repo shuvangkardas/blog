@@ -1,3 +1,10 @@
+---
+categories:
+    - Engineering
+tags:
+    - linux
+    - bash
+---
 
 Working flawlessly with Linux mostly depends on how well we know the Linux commands. It really needs time to be good at all the Linux commands. The purpose of this document is to list all the basic commands so that anyone can get help.
 

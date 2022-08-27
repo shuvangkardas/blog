@@ -1,3 +1,12 @@
+---
+categories:
+    - Engineering
+tags:
+    - python
+    - machine-learning
+    - deep-learning
+---
+
 I began my Ph.D. journey on 2021. At that time I started learning ML. So, initially, I practiced different ML models on the internet and through different tutorials. I always got confused about the ways different tutorials demonstrated how to load the dataset. Because I was not sure which way is good for my case. Then, I documented the dataset loading mechanism that different tutorials followed. I found that most of the tutorials follow only 2/3 types of mechanisms. 
 
 Here I will write a few techniques for loading CSV datasets into your machine learning and deep learning model.

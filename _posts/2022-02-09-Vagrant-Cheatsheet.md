@@ -1,3 +1,13 @@
+---
+categories:
+    - Engineering
+tags:
+    - vagrant
+    - automation
+---
+
+
+
 -   `vagrant` Verify vagrant installation
 -   `vagrant init hashicorp/bionic64` This will create a `Vagrantfile` in current directory
 -   `vagrant up` start the virtual machine from the Vagrantfile configuration

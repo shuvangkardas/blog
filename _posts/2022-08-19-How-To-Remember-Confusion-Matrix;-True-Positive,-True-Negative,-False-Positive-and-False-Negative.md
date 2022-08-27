@@ -1,6 +1,14 @@
-![Confusion Matrix,Image Source Reference 1](/assets/images/Confusion-Matrix-Fun-Example.png)
+---
+permalink: understand-confusion-matrix
+categories:
+  - Engineering
+tags:
+  - machine-learning
+  - theory
+---
 
 Every time I read about these four terms i.e. True Positive(TP), True Negative(TN), False Positive(FP), and False Negative, I thought that I got it. Later I get confused and mess up. I guess this happens with you too. Maybe this is the reason these four terms are called confusion matrix or Error Matrix. 
+![Confusion Matrix,Image Source Reference 1](/assets/images/Confusion-Matrix-Fun-Example.png)
 
 After Googling these terms I came into this medium blog[^1] of Sarang Narkhede. The picture you see at the top, taken from there and it is convincing. Still, I am not sure about remembering these terms. For remembering things, I always believe in connection. Connection is the best way to store things for the long term. If you read the book How to Take Smart Notes by Sönke Ahrens, you will get a good example of remembering the difference between artery and vein by creating connection with old knowledge. That's my favorite example. Ok! lot of pep talk. Let's come to the point. 
 

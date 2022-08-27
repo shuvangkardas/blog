@@ -1,3 +1,12 @@
+---
+# header:
+#     image: /assets/images/Swati-Shuvangkar-3rd-Anniversary.png
+#     caption: Our marriage day image
+categories: 
+    - Story
+---
+
+
 ![Swati Shuvangkar Third Anniversary](/assets/images/Swati-Shuvangkar-3rd-Anniversary.png)
 You will meet many types of people in your life. Some will say 3, some will say 5, and others will say 7 billion. Whatever the number is, I am sure, you will meet a type of person who will change your life and always be there for you, care for you and make your life smoother than before. Swati is that kind of person in my life.
 

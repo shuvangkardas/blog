@@ -10,18 +10,18 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
+theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Shuvangkar's Blog"
+title                    : "Shuvangkar Das' Blog"
 title_separator          : "-"
-subtitle                 : "Research, Productivity and Engineering"
+subtitle                 : "Lifestyle, Productivity & Research"
 name                     : "Shuvangkar Das"
-description              : "Research, Productivity, Lifestyle & Engineering" #Just for SEO
-url                      : "https://blog.shuvangkar.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : "Lifestyle, Productivity, Research & Engineering" #Just for SEO
+url                      : "https://blog.shuvangkardas.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -106,57 +106,64 @@ analytics:
 author:
   name             : "Shuvangkar Das"
   avatar           : "/assets/images/shuvangkar_das.png"
-  bio              : "Journey is important than destination"
+  bio              : ""
   location         : "New York, USA"
-  email            : 
+  email            : "shuvangkarcdas@gmail.com"
   links:
     - label: "Youtube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/ShuvangkarDas"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:shuvangkarcdas@gmail.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+
     - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
       url: "https://twitter.com/shuvangkar_das"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/shuvangkarcdas/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/shuvangkar_das/"
 
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/shuvangkar/"
+      url: "https://www.linkedin.com/in/shuvangkardas/"
+
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/shuvangkardas"
+
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/shuvangkar_das/"
+    
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/shuvangkarcdas/"
+    
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://shuvangkardas.com/"
+
+    
+
+    
 
 # Site Footer
 footer:
   links:
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/ShuvangkarDas"
+
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fab fa-fw fa-twitter"
       url: "https://twitter.com/shuvangkar_das"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/shuvangkarcdas/"
+
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/shuvangkardas/"
+
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/shuvangkar"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
+      url: "https://github.com/shuvangkardas"
+
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://www.instagram.com/shuvangkar_das/"
 
 
 # Reading Files
@@ -224,10 +231,18 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
+# permalink: /:categories/:title/
+permalink: /:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+# Collections
+# collections:
+#   profile:
+#     output: true
+#     permalink: /:collection/:path/
+
 
 
 # Plugins (previously gems:)

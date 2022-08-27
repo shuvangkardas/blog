@@ -1,3 +1,8 @@
+---
+categories: 
+    - Story
+--- 
+ 
  From my school days, I dreamt off studying Electrical Engineering at Bangladesh University of Engineering and Technology(BUET). So, getting admission into BUET was always like making-my-dream-come-true. Finally, after waiting more than 7 months, my class started on 7th May 2012. The day was not that exciting that I perceived before. There are few reasons behind it. I almost  get distracted from study due to  the long break. Also I am passing though a  severe migraine  problem at that time. The last point is very interesting though. I always though that I would be financially independent after getting into BUET.  I have seen  BUET students earn a decent amount of  money by private tutoring. For god sake, I could not  manage good private tuition at that time. Moreover, I interviewed into Udvas coaching as a teacher⁠—but failed miserably. 
 
 As a direct consequences of depression, my first semester result was such a disastrous. I had heartbreak during 2014. Also, I was passing through a serious family crisis. All these things dragged me into a deep depression.
