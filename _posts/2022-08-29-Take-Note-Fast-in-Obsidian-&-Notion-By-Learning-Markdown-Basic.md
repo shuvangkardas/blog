@@ -1,3 +1,18 @@
+---
+title: Take Note Fast in Obsidian & Notion By Learning Markdown Basic
+permalink: markdown-basic-for-note-taking
+date: 2022-08-29
+type: Blog
+categories:
+- Productivity
+- Research
+- Engineering
+tags:
+- personal-knowledge-management(pkm)
+- obsidian
+- notion
+---
+
 When I was a kid: WOW! MS word is great.
 When I was young: Evernote is awesome.
 When I started my Ph.D.: Notion is great.
