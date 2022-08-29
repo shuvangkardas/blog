@@ -13,11 +13,11 @@ tags:
 - notion
 ---
 
-When I was a kid: WOW! MS word is great.
-When I was young: Evernote is awesome.
-When I started my Ph.D.: Notion is great.
-When I am 2nd years in Ph.D.: Nothing is better than Obsidian
-When I am tittle experienced: Nothing can beat **Markdown** and plain text. 
+When I was a kid: WOW! MS word is great.  
+When I was young: Evernote is awesome.  
+When I started my Ph.D.: Notion is great.  
+When I am 2nd years in Ph.D.: Nothing is better than Obsidian.  
+When I am tittle experienced: Nothing can beat **Markdown** and plain text.   
 
 There are many note-taking apps in the personal knowledge management domain, e.g. Obsidian, Notion, Roam Research, Logseq, etc. You know, one thing is common in all of these note-taking apps. That is all these apps natively support Markdown. You might be wondering, if that is so useful why didn't you hear it before? 
 
@@ -54,9 +54,8 @@ Consider, that you have two notes, One is `Herd Immunity` and another one is `Va
 This should be the start of your markdown. If you explore more you will learn more. But I believe to start with a thing simple way. These are the basic things you need to use in day-to-day life. In the next tutorial, I will bring up a more advanced topic. Subscribe to my [newsletter](https://newsletter.shuvangkardas.com/) to get the latest update. Also, I am making a video series on YouTube on how to do knowledge management and research smartly. You can subscribe to my [channel](https://www.youtube.com/ShuvangkarDas) for the upcoming course. 
 
 ---
-Shuvangkar Das, Potsdam, New York
-
-Connect with me:
-- Twitter: [https://twitter.com/shuvangkar_das](https://twitter.com/shuvangkar_das)
-- LinkedIn: [https://www.linkedin.com/in/ShuvangkarDas/](https://www.linkedin.com/in/ShuvangkarDas/)
-- YouTube: [https://www.youtube.com/ShuvangkarDas](https://www.youtube.com/ShuvangkarDas)
+Shuvangkar Das, Potsdam, New York  
+Connect with me:  
+Twitter: [https://twitter.com/shuvangkar_das](https://twitter.com/shuvangkar_das)  
+LinkedIn: [https://www.linkedin.com/in/ShuvangkarDas/](https://www.linkedin.com/in/ShuvangkarDas/)  
+YouTube: [https://www.youtube.com/ShuvangkarDas](https://www.youtube.com/ShuvangkarDas)  
