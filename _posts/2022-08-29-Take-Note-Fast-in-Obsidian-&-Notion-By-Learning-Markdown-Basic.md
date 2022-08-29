@@ -39,6 +39,7 @@ First press dash, then press space, and the dash turns into a bullet point. You 
 - Bullet x (`- Bullet x`)
 - Bullet y (`- Bullet y`)
 - 
+
 ### How to write numbered list
 Enter a number, then a dot and space will create the number list. You need to do this for the first list. Pressing enter/return will create the next list.
 1. List1 (`1. List1`)
