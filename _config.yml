@@ -20,7 +20,7 @@ title                    : "Shuvangkar Das' Blog"
 title_separator          : "-"
 subtitle                 : "Lifestyle, Productivity & Research"
 name                     : "Shuvangkar Das"
-description              : "Lifestyle, Productivity, Research & Engineering" #Just for SEO
+description              : "Lifestyle, Productivity & Research" #Just for SEO
 url                      : "https://blog.shuvangkardas.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
