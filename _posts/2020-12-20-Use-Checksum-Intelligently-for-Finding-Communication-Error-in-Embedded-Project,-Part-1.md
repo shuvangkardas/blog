@@ -1,4 +1,5 @@
 ---
+permalink: how-to-use-checksum-intelligently-to-find-bugs
 categories:
  - Engineering
 tags:

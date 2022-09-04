@@ -1,4 +1,6 @@
 ---
+title: 
+permalink: custom-data-structure-for-embedded-system-projects
 categories:
     - Engineering
 tags:

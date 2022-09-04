@@ -1,4 +1,5 @@
 ---
+permalink: linux-basic-commands-cheatsheet
 categories:
     - Engineering
 tags:

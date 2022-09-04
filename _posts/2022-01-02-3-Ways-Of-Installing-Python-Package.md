@@ -1,4 +1,5 @@
 ---
+permalink: different-ways-of-installing-arduino-package
 categories:
     - Engineering
 tags:

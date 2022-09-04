@@ -1,7 +1,8 @@
 ---
-title: Take Note Fast in Obsidian & Notion By Learning Markdown Basic
+title: Take Note Fast in Obsidian & Notion By Learning Markdown Basic Syntax
 permalink: markdown-basic-for-note-taking
 date: 2022-08-29
+excerpt: 
 type: Blog
 categories:
 - Productivity

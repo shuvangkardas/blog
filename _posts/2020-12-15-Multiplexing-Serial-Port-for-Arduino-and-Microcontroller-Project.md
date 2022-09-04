@@ -1,4 +1,5 @@
 ---
+permalink: multiplexing-serial-port
 categories:
     - Engineering
 tags:

@@ -1,4 +1,5 @@
 ---
+permalink: arduino-analog-read-sampling-guideline
 categories:
   - engineering
 tags:

@@ -1,4 +1,5 @@
 ---
+permalink: different-ways-of-loading-ml-dataset
 categories:
     - Engineering
 tags:

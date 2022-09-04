@@ -1,4 +1,5 @@
 ---
+permalink: netstat-cheatsheet
 categories:
   - engineering
 tags:

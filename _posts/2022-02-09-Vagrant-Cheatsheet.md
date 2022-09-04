@@ -1,4 +1,5 @@
 ---
+permalink: vagrant-cheatsheet
 categories:
     - Engineering
 tags:

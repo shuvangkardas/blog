@@ -1,4 +1,5 @@
 ---
+permalink: my-third-marriage-anniversary
 # header:
 #     image: /assets/images/Swati-Shuvangkar-3rd-Anniversary.png
 #     caption: Our marriage day image

@@ -1,4 +1,5 @@
 ---
+permalink: conda-cheatsheet
 categories:
     - Engineering
 tags:
