@@ -1,6 +1,7 @@
 ---
 title: 
 permalink: custom-data-structure-for-embedded-system-projects
+excerpt: It is very important to learn how to create custom data structures and build the functions around them. It will ease your firmware development and makes the code more portable and readable. 
 categories:
     - Engineering
 tags:
@@ -146,4 +147,12 @@ printSensor(struct sensorData_t *sensorPtr)
 
 Voila! you can write any function using the same data structure. Now you can organize our code in a good manner no matter how many sensors you want to log. Another good point of using such a design pattern is that the code would be portable and manageable. Imagine, next time you need to add another sensor such as a voltage sensor, you don’t have to change your whole codebase. You will just add the variable inside your data structure and makes changes inside the function. You don't have to work on the upper layer function that you have already built on top of this file.
 
-In the next part, I will add more functionality using the same data structure. Happy coding!! and don't forget to subscribe to my [YouTube](https://www.youtube.com/shuvangkarDas) channel.
+In the next part, I will add more functionality using the same data structure. Happy coding!!
+
+-Shuvangkar Das, Potsdam, New York
+## Announcements
+Everyone does some form of knowledge work but most of the time does that inefficiently. As a result, despite working hard, we ended up with questionable results. So to address that I am working on a very exciting project name Smart Personal Knowledge Management(SPKM). In fact, I am making a YouTube video series on it. You can get update about the course in two ways, (1) by subscribing to my [YouTube](https://www.youtube.com/ShuvangkarDas) channel or (2) by subscribing my [newsletter](http://newsletter.shuvangkardas.com/)
+## Connect with me
+- Twitter: [https://twitter.com/shuvangkar_das](https://twitter.com/shuvangkar_das)
+- LinkedIn: [https://www.linkedin.com/in/ShuvangkarDas/](https://www.linkedin.com/in/ShuvangkarDas/)
+- YouTube: [https://www.youtube.com/ShuvangkarDas](https://www.youtube.com/ShuvangkarDas)
