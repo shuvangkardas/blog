@@ -150,9 +150,9 @@ Voila! you can write any function using the same data structure. Now you can org
 In the next part, I will add more functionality using the same data structure. Happy coding!!
 
 -Shuvangkar Das, Potsdam, New York
-## Announcements
+### Interesting Things I Am Doing Currently
 Everyone does some form of knowledge work but most of the time does that inefficiently. As a result, despite working hard, we ended up with questionable results. So to address that I am working on a very exciting project name Smart Personal Knowledge Management(SPKM). In fact, I am making a YouTube video series on it. You can get update about the course in two ways, (1) by subscribing to my [YouTube](https://www.youtube.com/ShuvangkarDas) channel or (2) by subscribing my [newsletter](http://newsletter.shuvangkardas.com/)
-## Connect with me
+### Connect with me
 - Twitter: [https://twitter.com/shuvangkar_das](https://twitter.com/shuvangkar_das)
 - LinkedIn: [https://www.linkedin.com/in/ShuvangkarDas/](https://www.linkedin.com/in/ShuvangkarDas/)
 - YouTube: [https://www.youtube.com/ShuvangkarDas](https://www.youtube.com/ShuvangkarDas)
