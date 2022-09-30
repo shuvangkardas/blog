@@ -118,12 +118,15 @@ If you want to refer to the equation, use label-text.
 ---
 
 -Shuvangkar Das, Potsdam, New York
+
 ### Interesting Things I am Doing Currently
 Everyone does some form of knowledge work but most of the time does that inefficiently. As a result, despite working hard, we ended up with questionable results. So to address that I am working on a very exciting project name Smart Personal Knowledge Management(SPKM). In fact, I am making a YouTube video series on it. You can get update about the course in two ways, (1) by subscribing to my [YouTube](https://www.youtube.com/ShuvangkarDas) channel or (2) by subscribing my [newsletter](http://newsletter.shuvangkardas.com/)
+
 ### Connect with me
 - Twitter: [https://twitter.com/shuvangkar_das](https://twitter.com/shuvangkar_das)
 - LinkedIn: [https://www.linkedin.com/in/ShuvangkarDas/](https://www.linkedin.com/in/ShuvangkarDas/)
 - YouTube: [https://www.youtube.com/ShuvangkarDas](https://www.youtube.com/ShuvangkarDas)
+
 ### References
 1. https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes
 
