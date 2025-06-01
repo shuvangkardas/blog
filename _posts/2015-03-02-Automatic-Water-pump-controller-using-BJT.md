@@ -7,127 +7,144 @@ tags:
 Status:
 ---
 
-
 This is one of my favorite analog electronics projects because this is the lowest cost but efficient automatic water pump controller. Components require for this project are
 
-> -   3 BJT model [BC547](https://www.fairchildsemi.com/datasheets/BC/BC547.pdf),
-> -   1 Buzzer,
-> -   1 Relay,
-> -   8 Resistors,
-> -   1 Diode,
-> -   1 Led,
-> -   Wires for sensing water level.
+> - 3 BJT model [BC547](https://www.fairchildsemi.com/datasheets/BC/BC547.pdf),
+> - 1 Buzzer,
+> - 1 Relay,
+> - 8 Resistors,
+> - 1 Diode,
+> - 1 Led,
+> - Wires for sensing water level.
 
- So all the components cost not more than $1.
+So all the components cost not more than $1.
 
 ![Image](/assets/images/Automaticwaterpumpcontroller2_zps64911e57.webp)
 
-I hope all of you guys have fun with this low cost exciting project. I will explain design procedure of every parts so that you can use BJT switch any of your project. Before we start let’s see the project demo video.  
+I hope all of you guys have fun with this low cost exciting project. I will explain design procedure of every parts so that you can use BJT switch any of your project. Before we start let's see the project demo video.
 
-#### Buzzer Part design:
+## Buzzer Part design:
 
-Buzzer is used for indicating whether there is water in the water tank or not. If there is no water in the water tank buzzer will turn on. So I have to put two terminals of the wire at the bottom of the water tank. 
+Buzzer is used for indicating whether there is water in the water tank or not. If there is no water in the water tank buzzer will turn on. So I have to put two terminals of the wire at the bottom of the water tank.
 
-> -    Buzzer current requirement: 35mA maximum
-> -   Voltage: 3.5-5V
-> -   buzzer coil resistance: 42R
-> -   Buzzer will be turn on when there is no water in the water tank and turn off when water level start rising .
+> - Buzzer current requirement: 35mA maximum
+> - Voltage: 3.5-5V
+> - buzzer coil resistance: 42R
+> - Buzzer will be turn on when there is no water in the water tank and turn off when water level start rising.
 
-So now one thing is clear we have to design transistor such a way so that it works in cut-of region and saturation region as well as supply 30mA(close to 35mA) current. If you don’t know much about BJT switching, it is suggested to go through this tutorial [TRANSISTOR AS A SWITCH : DESIGN PROCEDURE](http://www.eeetechbd.com/2015/03/transistor-as-switch-design-procedure.html).  
+So now one thing is clear we have to design transistor such a way so that it works in cut-of region and saturation region as well as supply 30mA(close to 35mA) current. If you don't know much about BJT switching, it is suggested to go through this tutorial [TRANSISTOR AS A SWITCH : DESIGN PROCEDURE](http://www.eeetechbd.com/2015/03/transistor-as-switch-design-procedure.html).
+
 The image given below is our final design. You see, it is supplying 33mA current through the buzzer.
-
 
 ![Image](/assets/images/buzzerpart2_zpsbe823475.webp)
 
+**Circuit parameters:**
 
-$$displaylines{  
-  {V_{CC}} = 9V cr  
-  {R_{buzzer}} = 42Omega  cr  
-  {I_{buzzer}} = 30mA cr  
-  {I_{buzzer}} = {{{V_{CC}}} over {{R_C} + {R_{buzzer}}}} cr  
-  {R_C} = 258Omega  cr} $$  
+$$V_{CC} = 9V$$
+
+$$R_{buzzer} = 42\Omega$$
+
+$$I_{buzzer} = 30mA$$
+
+**Collector resistance calculation:**
+
+$$I_{buzzer} = \frac{V_{CC}}{R_C + R_{buzzer}}$$
+
+$$R_C = 258\Omega$$
+
 Nearest available value is 230 ohm.
 
 For calculating R1 & R2 values we need the Thevenin equivalent of above circuit.
 
 ![Image](/assets/images/theveninequivalent_zps0174882e.webp)
 
+**Thevenin voltage and resistance are:**
 
+$$V_B = \frac{R_2}{R_1 + R_2}$$
 
-Thevenin voltage and resistance are  
-$$displaylines{  
-  {V_B} = {{{R_2}} over {{R_1} + {R_2}}} cr  
-  {R_B} = {{{R_1}{R_2}} over {{R_1} + {R_2}}} cr} $$  
-Now we calculate collector and base current  
-$$displaylines{  
-  {I_{C|EOS}} = {{{V_{CC}} – {V_{CE|Saturation}}} over {{R_C}}} cr  
-   = {{9 – 0.2} over {220}} cr  
-   = 40mA cr  
-  {I_{B|EOS}} = {{{I_{C|EOS}}} over {{beta _{min }}}} cr  
-   = {{40mA} over {110}} cr  
-   = 0.3636mA cr} $$  
-[Overdrive factor](http://www.eeetechbd.com/2015/03/transistor-as-switch-design-procedure.html) ODF =10.  
-$$displaylines{  
-  {I_B} = ODFx{I_{B|EOS}} cr  
-   = 10x.3636mA cr  
-   = 3.636mA cr} $$  
-**N.B: If Thevenin voltage VB very close to power supply voltage Vcc=9v then the transistor will operate deep into saturation**  
-Let assume VB=99% of Vcc  
-$$displaylines{  
-  {V_B} = 8.91v cr  
-  {I_B} = {{{V_B}} over {{R_B}}} cr  
-  {R_B} = {{{V_B}} over {{I_B}}} cr  
-  {R_B} = {{8.91v} over {3.636mA}} cr
+$$R_B = \frac{R_1 R_2}{R_1 + R_2}$$
 
-   = 2450Omega  cr} $$  
-No we find out values for R1 & R2.  
-As VB very close to Vcc, so the R2 value should be enough greater than  R1 value. let R2= 100k  
-$$displaylines{  
-  {R_2} = 100kOmega  cr  
-  {R_B} = {{{R_1}{R_2}} over {{R_1} + {R_2}}} cr  
-  2450 = {{{R_1}x100k} over {{R_1} + 100k}} cr  
-  {R_1} + 100k = {{{R_1}x100k} over {2450}} cr  
-  {R_1} + 100k = 40.8{R_1} cr  
-  {R_1} = 2512.56Omega  cr
+**Now we calculate collector and base current:**
 
-  {R_1} approx 2.5kOmega  cr} $$  
-Our calculated values are close to simulation value.  
-So when the water level doesn’t reach that height current cannot pass through Base(Base grounded). So BJT operates in the Cut-off region.
+$$I_{C|EOS} = \frac{V_{CC} - V_{CE|Saturation}}{R_C}$$
 
-### Relay part design:
+$$I_{C|EOS} = \frac{9 - 0.2}{220} = 40mA$$
 
-Two terminals of the wire will put at the top of the water tank. So when water tries to overflow, the motor automatically turns off. 
+$$I_{B|EOS} = \frac{I_{C|EOS}}{\beta_{min}}$$
+
+$$I_{B|EOS} = \frac{40mA}{110} = 0.3636mA$$
+
+[Overdrive factor](http://www.eeetechbd.com/2015/03/transistor-as-switch-design-procedure.html) ODF = 10.
+
+$$I_B = ODF \times I_{B|EOS}$$
+
+$$I_B = 10 \times 0.3636mA = 3.636mA$$
+
+**N.B: If Thevenin voltage VB very close to power supply voltage Vcc=9v then the transistor will operate deep into saturation**
+
+Let assume VB = 99% of Vcc
+
+$$V_B = 8.91V$$
+
+$$I_B = \frac{V_B}{R_B}$$
+
+$$R_B = \frac{V_B}{I_B}$$
+
+$$R_B = \frac{8.91V}{3.636mA} = 2450\Omega$$
+
+Now we find out values for R1 & R2.
+
+As VB very close to Vcc, so the R2 value should be enough greater than R1 value. let R2 = 100k
+
+$$R_2 = 100k\Omega$$
+
+$$R_B = \frac{R_1 R_2}{R_1 + R_2}$$
+
+$$2450 = \frac{R_1 \times 100k}{R_1 + 100k}$$
+
+$$R_1 + 100k = \frac{R_1 \times 100k}{2450}$$
+
+$$R_1 + 100k = 40.8 R_1$$
+
+$$R_1 = 2512.56\Omega$$
+
+$$R_1 \approx 2.5k\Omega$$
+
+Our calculated values are close to simulation value.
+
+So when the water level doesn't reach that height current cannot pass through Base(Base grounded). So BJT operates in the Cut-off region.
+
+## Relay part design:
+
+Two terminals of the wire will put at the top of the water tank. So when water tries to overflow, the motor automatically turns off.
 
 As electronics circuit part is operating in 9v. But we need to turn on and off the Ac water pump. So we need a relay to operate the water pump. But relay requires much current close to 70mA.
 
-I used relay model [SRD-05VDC-SL-C](https://www.google.com.bd/url?sa=t&rct=j&q=&esrc=s&source=web&cd=6&cad=rja&uact=8&ved=0CCsQFjAF&url=https%3A%2F%2Fwww.ghielectronics.com%2Fdownloads%2Fman%2F20084141716341001RelayX1.pdf&ei=7-0GVarxFdeUuATctIKwBQ&usg=AFQjCNGE8KZfje3o_iyBtrih5JHjcYrpww&sig2=AfCaQ_QOFVSXE52h9ILg1g)
+I used relay model [SRD-05VDC-SL-C](https://www.google.com.bd/url?sa=t&rct=j&q=&esrc=s&source=web&cd=6&cad=rja&uact=8&ved=0CCsQFjAF&url=https%3A%2F%2Fwww.ghielectronics.com%2Fdownloads%2Fman%2F20084141716341001RelayX1.pdf&ei=7-0GVarxFdeUuATctIKwBQ&usg=AFQjCNGE8KZfje3o_iyBtrih5JHjcYrpww&sig2=AfCaQ_QOFVSXE52h9ILg1g)
 
-> Relay current requirements:70 mA  
+> Relay current requirements: 70 mA  
 > voltage: 5V
 
-As calculations are same as Buzzer part, you can calculate necessary resistors value to operate relay if you understand Buzzer part design. Here only change is Collector current Ic
-
+As calculations are same as Buzzer part, you can calculate necessary resistors value to operate relay if you understand Buzzer part design. Here only change is Collector current Ic
 
 ![Image](/assets/images/bjtrelayoperatedmotor1_zps41e23ee3.webp)
 
-
-
 Here Diode parallel with Relay is used keeping the BJT safe from high voltage generated by relay which may break downs the BJT. So when high voltage generates across relay coil, it pass through diode to the battery.
 
-### Led Part design:
+## Led Part design:
 
-Led is optional part. When water is middle of the water tank led will turn on. So I have to put two terminals of the  wire at the middle of the water tank.  
-I used 3mm Led which requires 10mA current.  
-To minimize BJT power consumption, design the transistor in saturation mode.  
-Follow [this tutorial](https://www.blogger.com/TRANSISTOR%20AS%20A%20SWITCH%20:%20DESIGN%20PROCEDURE) to design this part.
+Led is optional part. When water is middle of the water tank led will turn on. So I have to put two terminals of the wire at the middle of the water tank.
 
+I used 3mm Led which requires 10mA current.
+
+To minimize BJT power consumption, design the transistor in saturation mode.
+
+Follow [this tutorial](https://www.blogger.com/TRANSISTOR%20AS%20A%20SWITCH%20:%20DESIGN%20PROCEDURE) to design this part.
 
 ![Image](/assets/images/led2_zpsdc6dda31.webp)
 
+For better view of the full schematic go [This link](http://i1265.photobucket.com/albums/jj508/sshuvo93/AKASH-PC/Blogger/Automatic%20water%20pump%20controller%20using%20bjt/Automaticwaterpumpcontroller_zps98223f84.gif)
 
+**Point to remember:**
 
-For better view of the full schematic go [This link](http://i1265.photobucket.com/albums/jj508/sshuvo93/AKASH-PC/Blogger/Automatic%20water%20pump%20controller%20using%20bjt/Automaticwaterpumpcontroller_zps98223f84.gif)  
-**Point to remember:**  
-After completing design choose BJT model according to your current rating(maximum allowable current through collector) and power rating. So check my model [BC547](https://www.fairchildsemi.com/datasheets/BC/BC547.pdf). . Collector current(DC) of [BC547](https://www.fairchildsemi.com/datasheets/BC/BC547.pdf) is 100mA and our Relay requires 70mA. We can use this model. If you want to be more safe, use [PN2222](https://www.fairchildsemi.com/datasheets/PN/PN2222.pdf) which collector current is 600mA
-
-
+After completing design choose BJT model according to your current rating(maximum allowable current through collector) and power rating. So check my model [BC547](https://www.fairchildsemi.com/datasheets/BC/BC547.pdf). Collector current(DC) of [BC547](https://www.fairchildsemi.com/datasheets/BC/BC547.pdf) is 100mA and our Relay requires 70mA. We can use this model. If you want to be more safe, use [PN2222](https://www.fairchildsemi.com/datasheets/PN/PN2222.pdf) which collector current is 600mA
