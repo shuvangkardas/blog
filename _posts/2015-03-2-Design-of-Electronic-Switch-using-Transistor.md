@@ -147,7 +147,7 @@ Nearest available value for **Rb is 200** Ohm.
 
 In the simulation we notice that all the values are close to our calculated value. So design is complete.
 
-## Checking Saturation region:**
+## Checking Saturation region:
 
 No we will check whether the transistor is operating in the saturation region or not.  
 If transistor operates in the saturation region, then saturation mode Dc current gain will be much less than Active mode minimum DC current gain .
