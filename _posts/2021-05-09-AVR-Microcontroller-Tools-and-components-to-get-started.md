@@ -1,5 +1,5 @@
 ---
-title: AVR Microcontroller-Tools and components to get started
+title: AVR Microcontroller-Tools and Components to Get Started
 permalink: 
 date: 2022-07-16
 excerpt: A beginner-friendly guide to essential software, hardware, and components for learning AVR microcontroller programming
