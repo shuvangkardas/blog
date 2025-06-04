@@ -12,7 +12,7 @@ status:
 If you're using Obsidian for research, notes, or writing papers, adding citations becomes essential. I often get asked:
 
 > **“How do you manage citations in markdown inside Obsidian?”**
-> ***"How to do you add citations in the markdown file"***
+> ***"How do you add citations in the markdown file"***
 > ***How to add reference in obsidian notes?***
 > ***What is the automated way to add reference or citation in obsidian?***
 
