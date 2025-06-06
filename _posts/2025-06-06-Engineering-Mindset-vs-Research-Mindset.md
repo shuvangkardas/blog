@@ -2,7 +2,7 @@
 title: Engineering Mindset vs Research Mindset
 permalink: Engineering-Mindset-vs-Research-Mindset
 date: 2025-06-06
-excerpt: 
+excerpt: If you're pursuing a PhD, which mindset do you have?  Engineer mindset vs. research mindset. Let me explain.
 type: Blog
 categories: 
 tags: 
