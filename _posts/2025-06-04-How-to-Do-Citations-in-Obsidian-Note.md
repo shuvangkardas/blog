@@ -1,6 +1,6 @@
 ---
-title: "How I Add Citations in Obsidian: Manual to Fully Automated"
-permalink: obsidian-reference
+title: "How I Add Citations in Obsidian Notes: Manual to Fully Automated"
+permalink: obsidian-note-add-references-or-cite-source-automatically
 date: 2025-06-04
 excerpt: Let me walk you through three ways—starting from the simplest to the most powerful automation I use every day to  add Citations in Obsidian
 type: Blog

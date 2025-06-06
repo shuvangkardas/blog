@@ -12,15 +12,15 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Shuvangkar Das' Blog"
 title_separator          : "-"
-subtitle                 : "Lifestyle, Productivity & Research"
-name                     : "Shuvangkar Das"
-description              : "Lifestyle, Productivity & Research" #Just for SEO
+subtitle                 : "Productivity, Note-taking & Research"
+name                     : "Shuvangkar Das, PhD"
+description              : "Productivity, Note-taking & Research" #Just for SEO
 url                      : "https://blog.shuvangkardas.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -104,7 +104,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Shuvangkar Das"
+  name             : "Shuvangkar Das, PhD"
   avatar           : "/assets/images/shuvangkar_das.png"
   bio              : ""
   location         : "New York, USA"
