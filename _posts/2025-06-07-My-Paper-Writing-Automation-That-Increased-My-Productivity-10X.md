@@ -2,7 +2,7 @@
 title: Paper Writing Automation That Increased My Productivity 10X as a PhD Student
 permalink: how-i-built-a-highly-productive-latex-writing-pipeline-for-phd-locally
 date: 2025-06-07
-excerpt: 
+excerpt: You spend hours dragging figures into the right place in MS Word, tweaking captions, and praying your references don’t break. I’ve been there. Many of us have. And that’s exactly why I decided to change everything about how I write research papers.
 type: Blog
 categories: 
 tags: 
