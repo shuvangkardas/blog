@@ -69,10 +69,15 @@ We have now added a title, author and date to our first \LaTeX{} document!
 
 ### Add Figures
 - Need two packages to handle images/figures efficiently
+{% raw %}
 	- `\usepackage{graphicx}`: Package for using graphics
 	- `\graphicspath{{./FiguresPath}}`: Latex  look for images in the mentioned folder
-- `\includegraphics{myimage.jpg}`: load  `myimage.jpg `
-- `\includegraphics[width=15cm]{myfigure.pdf}`: You can mention the figure absolute or relative dimension. More details in [[Latex Figure]]
+  - `\includegraphics{myimage.jpg}`: load  `myimage.jpg `
+  - `\includegraphics[width=15cm]{myfigure.pdf}`: You can mention the figure absolute or relative dimension. 
+{% endraw %}
+
+<!-- More details in [[Latex Figure]] -->
+
 - To add caption, label and reference with the figure, the `figure` environment is used
 ```latex
 \begin{figure}[h]
