@@ -208,7 +208,7 @@ Over the years, I’ve worked on real-world projects involving large scale EMT s
 </p>
 
 ### 📚References
-
+[[VerneMQ Setup Guideline]]
 
 
 
