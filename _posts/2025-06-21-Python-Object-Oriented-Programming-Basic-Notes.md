@@ -12,10 +12,12 @@ ___
 
 When I first learned Python, the biggest mental block I had was understanding classes. Why use them at all when functions just work? But then I realized... OOP wasn’t about writing more code—it was about writing maintainable code.
 
-In most of the languages, we designed our program around functions. This is called procedure-oriented programming. In object oriented way, data and functionality(method) are wrapped together inside a class. A class creates new data type and instances of the class are objects. Using class we can create as many objects just like other variables. For all objects of the a particular class, only data might be different.
+In most of the languages, we designed our program around functions. This is called procedure-oriented programming. In object oriented way, data and functionality(method) are wrapped together inside a class. **A class creates new data type and instances of the class are objects**. Understanding this line is important. Consider Class as a design of house. When we build house using the design, we call it object/instance. That means we can create as many houses (objects) we want based on the design (class). Every house might have different number of windows, rooms etc. 
+
+Therefore,  class we can create as many objects just like other variables. For all objects of the a particular class, only data might be different.
+
 
 There are four fundamental concept in object oriented programming.
-
 1.  Abstraction
 2.  Encapsulation
 3.  Inheritance
@@ -23,7 +25,7 @@ There are four fundamental concept in object oriented programming.
 
 ## Terminology
 
--   `self` Self represents the current object. Python converts the self into the current object during runtime.
+-   `self` Self represents the current object. Python converts the self into the current object during runtime.  When you create many objects using the class, this `self` variable keeps tracks of individual object's properties. For that reasons, we need to pass this variable when creating class.
 -   `Object variable` This variable belongs to the individual objects of the class.
 -   `class variable` This is a shared variable for all objects. There is only one copy of this variable. All objects can access this variable and any change of this variable by any objects reflect on all other objects.
 -   `Class method` Class method bounds to the class only and has access to the class states.
@@ -34,28 +36,23 @@ There are four fundamental concept in object oriented programming.
 ```python
 # Initialize an object class
 class Person:
-
   # A class variable to keep track of number of objects created
   population  = 0;
-
   # __init__ method is initialization of object. This is the default method
   def __init__(self,name):
 	  # self represent the current object that will be passed by the  python itself
     self.name = name  
-
     # increase population when new object is created
     Person.population +=1
-
   # method for priting name
   #self should be the first and deafult argument for all methods
   def say_hi(self): 
     print("Hello! I am ",self.name)
-
   # "@classmethod" is used to define class method
   @classmethod 
   def get_population_count(cls): # class method takes cls as a first parameter
     print("Total population: ", cls.population)
-
+    
 # Create a new object
 p1 = Person("Shuvangkar")
 p1.say_hi()
@@ -72,9 +69,15 @@ Hello! I am  Swati
 Total population:  2
 ```
 
+- `class` creates a template.
+- `__init__` runs when a new object is made.
+- `self` is used to access things in that object.
+- `@classmethod` and `cls` are used to access class-level info like total count.
+- Class variables are **shared** by all objects.
+
 ## Inheritance
 
-Inheritance is the way of code reusing by acquiring properties from one class to another class. C**ar, bus, bike** – all of these come under a broader category called Vehicle. So if we create a vehicle class, and later car class can acquire many properties from common class vehicle. Good point is that any change on the vehicle class will reflects on the car class.
+Inheritance is the way of code reusing by acquiring properties from one class to another class. **Car, bus, bike** – all of these come under a broader category called Vehicle. So if we create a vehicle class, and later car class can acquire many properties from common class vehicle. Good point is that any change on the vehicle class will reflects on the car class.
 
 ```python
 #Base Class
@@ -148,7 +151,7 @@ print("Square Area : ",a.area())
 
 A class is an example of encapsulation. Class bundles data and methods into a single unit and class provides the access to its attribute via method.
 
-we can restrict access to methods and variables. This prevents data from direct modification which is called encapsulation. In Python, we denote private attributes using underscore as the prefix i.e single `_` or double `__`.
+We can restrict access to methods and variables. This prevents data from direct modification which is called encapsulation. In Python, we denote private attributes using underscore as the prefix i.e single `_` or double `__`.
 
 ```python
 class Counter:
@@ -209,11 +212,12 @@ Counter :  1
 Counter :  100
 ```
 
+
 ### Private Protected Public
 
--   Private attributes should only be used by the owner, i.e. inside of the class definition itself. two leading underscores "__” makes the attribute private
--   Protected (restricted) Attributes may be used, but at your own risk. Essentially, they should only be used under certain conditions. single leading underscore “_” marks the attribute as protected
--   Public Attributes can and should be freely used.
+-  Private attributes should only be used by the owner, i.e. inside of the class definition itself. two leading underscores "__” makes the attribute private
+-  Protected (restricted) Attributes may be used, but at your own risk. Essentially, they should only be used under certain conditions. single leading underscore “_” marks the attribute as protected
+-  Public Attributes can and should be freely used.
 
 ```python
 class A():

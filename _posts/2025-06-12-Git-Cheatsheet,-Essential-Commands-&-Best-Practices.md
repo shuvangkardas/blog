@@ -11,7 +11,36 @@ status:
 Managing code efficiently is essential in any software project. Git, a powerful distributed version control system, provides the foundation for version control and collaboration. This cheatsheet lists the **most essential Git commands and workflows** that every developer should know, from initializing a repository to recovering lost work.
 
 ---
+## Git Basics for Beginners
 
+If you are complete beginner, I would suggest to start using following three commands. These are the commands you need most of the time.
+
+- `git init` – Start a new Git repository in your folder.
+- `git add .` – Stage all changes in the current folder.
+- `git commit -m "message"` – Save the staged changes with a message.
+
+**Simple Analogy**  
+Think of `git add` as collecting all your notes into a folder.  `git commit` is photocopying that folder and storing it with a label — a version you can always come back to.
+
+To check what’s going on at any point:
+- `git status` – Shows current file changes and stage status.
+
+### Connect to GitHub
+
+1. First, create a repository on GitHub.  
+2. Then run:
+
+- `git remote add origin <repo-url>` – Connects your local repo to GitHub.
+- `git branch -M main` – Rename local branch to `main` (used by GitHub).
+- `git push -u origin main` – Push for the first time and set upstream.
+
+Next time, just use:
+- `git push` – Push new commits to GitHub.
+- `git pull` – Pull changes from GitHub to your local repo.
+
+> 🔒 First push may ask for login. Use your GitHub credentials
+
+---
 ## 🔧 Basic Git Commands
 
 These are the fundamental Git commands used daily in project management:
@@ -188,6 +217,7 @@ Over the years, I’ve worked on real-world projects involving large scale EMT s
 ### 📚References
 - [Git Official Guides](https://github.com/git-guides/)
 - [Shuvangkar Das on GitHub](https://github.com/shuvangkar)
+- [[Git Basic Command Cheatsheet]]
 
 
 
