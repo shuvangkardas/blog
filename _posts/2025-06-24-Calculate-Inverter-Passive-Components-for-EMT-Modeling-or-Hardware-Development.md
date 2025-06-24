@@ -11,7 +11,8 @@ status:
 Over the last 10 years, I’ve spent a lot of time in power electronics—starting with my first inverter project in 2015. For the past three years, I’ve been working closely with EMT (Electromagnetic Transient) simulation tools to model inverter-based resources.
 
 There’s one question that comes up often, whether you’re working in simulation or hardware:  
-**How do you design the output LC filter of an inverter?**
+
+>**How do you design the output LC filter of an inverter?**
 
 It’s a small part of the overall system, but it has a big impact on performance. Getting it wrong can lead to high ripple, resonance, or even instability.
 
