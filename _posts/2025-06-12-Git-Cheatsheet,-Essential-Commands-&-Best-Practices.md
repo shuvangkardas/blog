@@ -11,7 +11,7 @@ status:
 Managing code efficiently is essential in any software project. Git, a powerful distributed version control system, provides the foundation for version control and collaboration. This cheatsheet lists the **most essential Git commands and workflows** that every developer should know, from initializing a repository to recovering lost work.
 
 ---
-## Git Basics for Beginners
+## Git for Absolute Beginners
 
 If you are complete beginner, I would suggest to start using following three commands. These are the commands you need most of the time.
 
