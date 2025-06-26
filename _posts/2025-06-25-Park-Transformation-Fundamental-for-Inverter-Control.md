@@ -94,9 +94,10 @@ $$
 #### Sample Calculation For Mag = 1, theta = 0 
 The three-phase voltages are given by:
 
-$$u_a = V_a = \sin(\omega t)$$
-$$u_b = V_b = \sin\left(\omega t - \frac{2\pi}{3}\right)$$
-$$u_c = V_c = \sin\left(\omega t + \frac{2\pi}{3}\right)$$
+- $u_a = V_a = \sin(\omega t)$
+- $u_b = V_b = \sin\left(\omega t - \frac{2\pi}{3}\right)$
+- $u_c = V_c = \sin\left(\omega t + \frac{2\pi}{3}\right)$
+
 At $\omega t = 0$:
 - $u_a = V_a = 0$
 - $u_b = V_b = -0.866025$
@@ -141,10 +142,10 @@ $$
 
 2. Evaluate the sinusoidal multipliers at $ωt = 0$
 	- $\displaystyle \sin(0) = 0$
-	- $\displaystyle \sin\!\Bigl(-\tfrac{2\pi}{3}\Bigr) = -\frac{\sqrt{3}}{2}$
-	- $\displaystyle \sin\!\Bigl(\tfrac{2\pi}{3}\Bigr) = +\frac{\sqrt{3}}{2}$
+	- $\displaystyle \sin(-\tfrac{2\pi}{3}\Bigr) = -\frac{\sqrt{3}}{2}$
+	- $\displaystyle \sin(\tfrac{2\pi}{3}\Bigr) = +\frac{\sqrt{3}}{2}$
 	- $\displaystyle \cos(0) = 1$
-	- $\displaystyle \cos\!\Bigl(-\tfrac{2\pi}{3}\Bigr) = \cos\!\Bigl(\tfrac{2\pi}{3}\Bigr) = -\tfrac{1}{2}$
+	- $\displaystyle \cos(-\tfrac{2\pi}{3}\Bigr) = \cos(\tfrac{2\pi}{3}\Bigr) = -\tfrac{1}{2}$
 3. Substitute into the formulas and compute $V_d, V_q, V_0$
 	- Compute $V_d$:
   
