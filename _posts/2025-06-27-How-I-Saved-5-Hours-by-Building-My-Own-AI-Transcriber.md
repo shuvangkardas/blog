@@ -170,5 +170,6 @@ Over the years, I’ve worked on real-world projects involving large scale EMT s
 ### 📚References
 [[Setup Local Transcription]]
 
-
-
+---
+**Sign up to get tips every week.**
+ {% include newsletter.html %}
