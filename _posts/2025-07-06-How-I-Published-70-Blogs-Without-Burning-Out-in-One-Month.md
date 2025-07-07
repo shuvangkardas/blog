@@ -1,8 +1,8 @@
 ---
-title: How I Published 70 Blogs Without Burning Out in One Month
+title: How I Published 70 Blog Posts in One Month Without Burning Out—Thanks Second Brain
 permalink: obsidian-to-blog-automated-publishing-pipeline
 date: 2025-07-06
-excerpt: 
+excerpt: I started building my second brain in 2021, during my first year as a PhD student. Since then, I’ve taken over 6,000 notes in Obsidian.
 type: Blog
 categories: 
 tags: 

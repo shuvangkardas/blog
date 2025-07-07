@@ -106,9 +106,10 @@ analytics:
 author:
   name             : "Shuvangkar Das, PhD"
   avatar           : "/assets/images/shuvangkar_das.png"
-  bio              : ""
-  location         : "New York, USA"
-  email            : "shuvangkarcdas@gmail.com"
+  bio: ""
+
+  location         : "TN, USA"
+  email            : "shuvangkarcdas[AT]gmail[DOT]com"
   links:
     - label: "Youtube"
       icon: "fab fa-fw fa-youtube"
