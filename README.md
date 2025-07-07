@@ -37,4 +37,6 @@ I turned my note vault into a **personal publishing pipeline**. With a single bu
 
 Want to see how I automated my blogging process? Feel free to explore — and build your own second brain publishing pipeline!
 
+Thank you
+
 ---
