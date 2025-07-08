@@ -2,7 +2,7 @@
 title: I Kept Losing My Best Ideas—Until I Did This
 permalink: 
 date: 2025-07-07
-excerpt: 
+excerpt: zero-barrier way to **capture thoughts on the go**—without overthinking, without opening ten apps, and without getting distracted.
 type: Blog
 categories: 
 tags: 
