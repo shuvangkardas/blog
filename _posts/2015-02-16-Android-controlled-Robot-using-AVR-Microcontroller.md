@@ -1,8 +1,8 @@
 ---
 title: Android controlled Robot using AVR Microcontroller
-permalink: 
+permalink: Android-controlled-Robot-using-AVR-Microcontroller
 date: 2015-02-16
-excerpt: 
+excerpt: Learn how to build an Android-controlled robot using an AVR microcontroller and Bluetooth. This step-by-step guide includes the Android app, circuit schematics, PCB layout, source code, and mechanical design – everything you need to create your own smart robot.
 type: Blog
 categories: 
 tags: 
@@ -33,6 +33,9 @@ By the end of this tutorial, you will be able to build android controller  robot
 
 So let’s begin. 
 
+
+Email for the project download link
+{% include newsletter.html %}
 ## Circuit Diagram and PCB Board:
 ![Image](/assets/images/Pasted-image-20250601122022.png)
 
@@ -136,32 +139,39 @@ Please feel free to let me know what types of problems you face
 -   AVR Microcontroller operation speed can be increased up to 16 Mhz changing Fuse bit
 -   This Robot can be converted into Automatic Goods Finder and carrier Robot
 
-
-
-
-
-
-
-
-
-
-
-
-
 ---
+### 👋 About Me
+Hi, I’m **Shuvangkar Das** — a power systems researcher with a Ph.D. in Electrical Engineering, currently working as a Research Engineer at EPRI. I work at the intersection of power electronics, inverter-based DERs (IBRs), and AI to help build smarter, greener, and more stable electric grids. 
 
-Shuvangkar Das, PhD
-Knoxville, Tennessee, USA
+My work spans large-scale EMT simulations, firmware development, reinforcement learning, and hardware prototyping. Beyond engineering, I’m also a [YouTuber](https://www.youtube.com/@ShuvangkarDas) and content creator — sharing hands-on insights on productivity, research, and knowledge management. My goal is simple: to make complex ideas more accessible and actionable for everyone.
 
-### 🚀 Hey! what's cool I'm doing now
-I am making a very interesting video series on "smart personal knowledge management(SPKM)"". The idea is to make learning and knowledge-work easy and effective. Everybody does some form of knowledge work but most of the time does that inefficiently. As a result, despite working hard, we ended up with questionable results. I will address this problem in this course. So, do subscribe on [YouTube](https://www.youtube.com/ShuvangkarDas) 
+**Real stories. Practical lessons. Right in your inbox.**  
+No spam—just once a week.  
+{% include newsletter.html %}
 
-### ☎ Connect with me
-- Twitter: [https://twitter.com/shuvangkar_das](https://twitter.com/shuvangkar_das)
-- LinkedIn: [https://www.linkedin.com/in/ShuvangkarDas/](https://www.linkedin.com/in/ShuvangkarDas/)
-- YouTube: [https://www.youtube.com/ShuvangkarDas](https://www.youtube.com/ShuvangkarDas)
+<p><strong>Connect with me:<br></strong>
+<a href="https://www.youtube.com/@ShuvangkarDas" target="_blank">
+    <img src="https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube">
+  </a>
+  <a href="https://www.linkedin.com/in/ShuvangkarDas" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin">
+  </a>
+  <a href="https://newsletter.shuvangkardas.com" target="_blank">
+    <img src="https://img.shields.io/badge/Newsletter-Subscribe-blue?style=for-the-badge">
+  </a>
+  <a href="https://twitter.com/shuvangkar_das" target="_blank">
+    <img src="https://img.shields.io/badge/Twitter-Follow-blue?style=for-the-badge&logo=twitter">
+  </a>
+  
+  <a href="https://github.com/shuvangkardas" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github">
+  </a>
+  <a href="https://blog.shuvangkardas.com" target="_blank">
+    <img src="https://img.shields.io/badge/Blog-Read-blueviolet?style=for-the-badge">
+  </a>
+  
+</p>
 
-### 📚References
 
 
 
