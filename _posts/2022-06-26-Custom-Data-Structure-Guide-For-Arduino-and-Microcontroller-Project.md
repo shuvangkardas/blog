@@ -1,19 +1,19 @@
 ---
-title: 
+title: Custom Data Structure Guide For Arduino And Microcontroller Project
 permalink: custom-data-structure-for-embedded-system-projects
-excerpt: It is very important to learn how to create custom data structures and build the functions around them. It will ease your firmware development and makes the code more portable and readable. 
+excerpt: It is very important to learn how to create custom data structures and build the functions around them. It will ease your firmware development and makes the code more portable and readable.
 categories:
-    - Engineering
+  - Engineering
 tags:
-    - embedded-system
-    - microcontroller
-    - arduino
+  - embedded-system
+  - microcontroller
+  - arduino
 ---
+![Image](/assets/images/Custom_data_structure_for_arduino_project.png)
 
 Data structure provides an efficient way of organizing data and functionality in the computer system. Good data structure design makes the system efficient and fast. It also helps to write modular code. You might be familiar with these types of data structure: Queue, Stack, Array, List, Tree. Apart from these standard data structures, you can design our custom data structure according to project requirements. It is very important to learn how to create custom data structures and build the functions around them. It will ease your firmware development and makes the code more portable and readable. 
 
 I learned embedded system programming in 2013. I used to use a lot of global variables at the beginning. As a result, I had no choice other than writing messy code at that time. Gradually, I have to master writing modular and efficient code simply by designing a good data struct or utilizing object-oriented programming. This data structure design pattern can be used with any microcontroller and Arduino project. Previously, I have employed these techniques in many projects including AVR microcontroller, PIC microcontroller, MSP430 microcontroller, ESP32, ESP8266, and ARM microcontrollers as well as Arduino.
-
 
 ### Why do you need to design a custom data structure?
 Consider you are going to design a toy data acquisition system for temperature and humidity. You will put the timestamp and device id with the sensor data. So, you need to allocate these four variables for this system. 
@@ -35,6 +35,10 @@ void sendData(int devId, uint32 time, foat temp, float hum)
 ```
 
 See!, you have to pass a bunch of variables to design a send function. When you have a lot of data, it would be very difficult to deal with. Of course, you can put all the variables into an array and pass the pointer. But that is less intuitive. Also, you can use a global variable for the data and use that variable in the send function. Remember one thing, the more you use global variables in your system, the more your code loses readability and portability. Also global variable performs slower than the local variable. So it is not a good programming practice to use many global variables in any project. Of course, you cannot neglect global variables in embedded system design because you also have to care about the RAM. Nevertheless, you should avoid using too many global variables.
+
+💡 _Enjoying this practical walkthrough? Get more stories like this (with code + insights) every week._  
+👉 No spam. Just real, hands-on content.  
+{% include newsletter.html %}
 
 ### How do you design custom data structure?
 Designing custom data structures in C and C++ is fairly straightforward. You can use `structure` to design the data structure for your toy data acquisition system.
@@ -149,10 +153,39 @@ Voila! you can write any function using the same data structure. Now you can org
 
 In the next part, I will add more functionality using the same data structure. Happy coding!!
 
--Shuvangkar Das, Potsdam, New York
-### Interesting Things I Am Doing Currently
-Everyone does some form of knowledge work but most of the time does that inefficiently. As a result, despite working hard, we ended up with questionable results. So to address that I am working on a very exciting project name Smart Personal Knowledge Management(SPKM). In fact, I am making a YouTube video series on it. You can get update about the course in two ways, (1) by subscribing to my [YouTube](https://www.youtube.com/ShuvangkarDas) channel or (2) by subscribing my [newsletter](http://newsletter.shuvangkardas.com/)
-### Connect with me
-- Twitter: [https://twitter.com/shuvangkar_das](https://twitter.com/shuvangkar_das)
-- LinkedIn: [https://www.linkedin.com/in/ShuvangkarDas/](https://www.linkedin.com/in/ShuvangkarDas/)
-- YouTube: [https://www.youtube.com/ShuvangkarDas](https://www.youtube.com/ShuvangkarDas)
+---
+
+**Real stories. Practical lessons. Right in your inbox.**  
+No spam—just once a week.  
+{% include newsletter.html %}
+
+---
+### 👋 About Me
+Hi, I’m **Shuvangkar Das** — a power systems researcher with a Ph.D. in Electrical Engineering, currently working as a Research Engineer at EPRI. I work at the intersection of power electronics, inverter-based DERs (IBRs), and AI to help build smarter, greener, and more stable electric grids. 
+
+My work spans large-scale EMT simulations, firmware development, reinforcement learning, and hardware prototyping. Beyond engineering, I’m also a [YouTuber](https://www.youtube.com/@ShuvangkarDas) and content creator — sharing hands-on insights on productivity, research, and knowledge management. My goal is simple: to make complex ideas more accessible and actionable for everyone.
+
+<p><strong>Connect with me:<br></strong>
+<a href="https://www.youtube.com/@ShuvangkarDas" target="_blank">
+    <img src="https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube">
+  </a>
+  <a href="https://www.linkedin.com/in/ShuvangkarDas" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin">
+  </a>
+  <a href="https://newsletter.shuvangkardas.com" target="_blank">
+    <img src="https://img.shields.io/badge/Newsletter-Subscribe-blue?style=for-the-badge">
+  </a>
+  <a href="https://twitter.com/shuvangkar_das" target="_blank">
+    <img src="https://img.shields.io/badge/Twitter-Follow-blue?style=for-the-badge&logo=twitter">
+  </a>
+  
+  <a href="https://github.com/shuvangkardas" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github">
+  </a>
+  <a href="https://blog.shuvangkardas.com" target="_blank">
+    <img src="https://img.shields.io/badge/Blog-Read-blueviolet?style=for-the-badge">
+  </a>
+  
+</p>
+
+### 📚 Obsidian Notes I Used for This Blog

@@ -12,7 +12,7 @@ status:
 ---
 
 Every time I read about these four terms i.e. True Positive(TP), True Negative(TN), False Positive(FP), and False Negative, I thought that I got it. Later I get confused and then mess up. I guess this happens with you too. Maybe this is the reason these four terms are called confusion matrix or Error Matrix. 
-![Image](/assets/images/Confusion-Matrix-Fun-Example.png)
+![Confusion-Matrix-Fun-Example](/assets/images/Confusion-Matrix-Fun-Example.png)
 
 After Googling these terms I came into this medium blog[^1] of Sarang Narkhede. The picture you see at the top, taken from there and it is convincing. Still, I am not sure about remembering these terms. 
 
@@ -45,11 +45,6 @@ Now Read the two rules again. You will remember the confusion matrix for life.
 Hi, I’m **Shuvangkar Das** — a power systems researcher with a Ph.D. in Electrical Engineering, currently working as a Research Engineer at EPRI. I work at the intersection of power electronics, inverter-based DERs (IBRs), and AI to help build smarter, greener, and more stable electric grids. 
 
 My work spans large-scale EMT simulations, firmware development, reinforcement learning, and hardware prototyping. Beyond engineering, I’m also a [YouTuber](https://www.youtube.com/@ShuvangkarDas) and content creator — sharing hands-on insights on productivity, research, and knowledge management. My goal is simple: to make complex ideas more accessible and actionable for everyone.
-
-**Real stories. Practical lessons. Right in your inbox.**  
-No spam—just once a week.  
-{% include newsletter.html %}
-
 <p><strong>Connect with me:<br></strong>
 <a href="https://www.youtube.com/@ShuvangkarDas" target="_blank">
     <img src="https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube">
@@ -77,15 +72,3 @@ No spam—just once a week.
 [^1]: https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62
 [[Confusion Matrix]]
 
-
-
----
-Shuvangkar Das, Potsdam, New York
-
-Connect with me:
-- Twitter: [https://twitter.com/shuvangkar_das](https://twitter.com/shuvangkar_das)
-- LinkedIn: [https://www.linkedin.com/in/ShuvangkarDas/](https://www.linkedin.com/in/ShuvangkarDas)
-- YouTube: [https://www.youtube.com/ShuvangkarDas](https://www.youtube.com/ShuvangkarDas)
-
-## References
-[^1]: https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62
