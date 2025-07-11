@@ -35,6 +35,8 @@ I leaned on the wall. Silently. Frustrated, but also humbled.
 
 That moment changed how I think about value.
 
+
+ {% include newsletter.html %}
 ## The Second Story: The $10,000 Feature
 
 A few years later, I heard a story from the software world. A company had just launched a shiny new product.
@@ -85,11 +87,13 @@ And it’s made all the difference.
 
 ---
 ### 👋 About Me
-Hi, I’m **Shuvangkar Das**, a power systems researcher with a Ph.D. in Electrical Engineering from Clarkson University. I work at the intersection of power electronics, DER, IBR, and AI — building greener, smarter, and more stable grids. Currently, I’m a Research Engineer at EPRI (though everything I share here reflects my personal experience, not my employer’s views).
+Hi, I’m **Shuvangkar Das** — a power systems researcher with a Ph.D. in Electrical Engineering, currently working as a Research Engineer at EPRI. I work at the intersection of power electronics, inverter-based DERs (IBRs), and AI to help build smarter, greener, and more stable electric grids. 
 
-Over the years, I’ve worked on real-world projects involving large scale EMT simulation and firmware development for  grid-forming and grid following inverter and reinforcement learning (RL). I also publish technical content and share hands-on insights with the goal of making complex ideas accessible to engineers and researchers.
+My work spans large-scale EMT simulations, firmware development, reinforcement learning, and hardware prototyping. Beyond engineering, I’m also a [YouTuber](https://www.youtube.com/@ShuvangkarDas) and content creator — sharing hands-on insights on productivity, research, and knowledge management. My goal is simple: to make complex ideas more accessible and actionable for everyone.
 
-📺 Subscribe to my [YouTube channel](https://www.youtube.com/@ShuvangkarDas), where I share tutorials, code walk-throughs, and research productivity tips.
+**Real stories. Practical lessons. Right in your inbox.**  
+No spam—just once a week.  
+{% include newsletter.html %}
 
 <p><strong>Connect with me:<br></strong>
 <a href="https://www.youtube.com/@ShuvangkarDas" target="_blank">
@@ -119,8 +123,6 @@ Over the years, I’ve worked on real-world projects involving large scale EMT s
 
 
 ---
-**Sign up to get tips every week.**
- {% include newsletter.html %}
 
 
 
@@ -129,11 +131,3 @@ Over the years, I’ve worked on real-world projects involving large scale EMT s
 
 
 
-
-
-
-
-
-
-
-## References
