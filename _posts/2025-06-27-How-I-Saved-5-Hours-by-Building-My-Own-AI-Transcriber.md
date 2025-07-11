@@ -11,8 +11,8 @@ status:
 I recently had to write a report from a 1-hour-long seminar. I had slides and a recording—everything I needed. Still, the thought of playing it back, pausing, rewinding, and writing notes felt like a 5–6 hour chore.
 
 But instead of grinding through it, I spent **just one hour**.  
-💡 **30 minutes to build a transcription script**  
-💡 **30 minutes to edit the report using the transcript**
+**30 minutes to build a transcription script**  
+**30 minutes to edit the report using the transcript**
 
 This is where **local AI automation** shines—and if you're a researcher, engineer, or obsessive note-taker like me, this post might just change your workflow.
 
@@ -127,6 +127,13 @@ if __name__ == "__main__":
 ## My Workflow: Whisper + Obsidian = Instant Knowledge
 
 I save each transcription in Obsidian, link it with related notes, and build a searchable, permanent second brain. Now if someone asks what was discussed in a 90-minute session last year, I have the answer in seconds.
+
+> 📩 Like this workflow?  
+> I share one practical automation or research productivity tip every week—straight from real engineering projects.  
+> No spam. No hype. Just signal.
+
+{% include newsletter.html %}
+
 
 ---
 
