@@ -2,7 +2,7 @@
 title: Effort vs Value—A Lesson I Learned the Hard Way
 permalink: /why-effort-doesnt-equal-value
 date: 2025-07-11
-excerpt: As an engineers, I often confuse complexity with value. But sometimes, what’s obvious to me is magic to someone else.
+excerpt: Why do we assume hard work equals high value? As engineers, it's a trap we fall into more often than we think.
 type: Blog
 categories: 
 tags: 
@@ -120,12 +120,6 @@ No spam—just once a week.
 
 ### 📚References
 [[How to Perceive Value of Your Work]]
-
-
----
-
-
-
 
 
 
