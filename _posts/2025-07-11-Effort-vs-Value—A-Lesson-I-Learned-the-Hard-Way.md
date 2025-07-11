@@ -1,6 +1,6 @@
 ---
 title: Effort vs Value—A Lesson I Learned the Hard Way
-permalink: 
+permalink: /why-effort-doesnt-equal-value
 date: 2025-07-11
 excerpt: As an engineers, I often confuse complexity with value. But sometimes, what’s obvious to me is magic to someone else.
 type: Blog
