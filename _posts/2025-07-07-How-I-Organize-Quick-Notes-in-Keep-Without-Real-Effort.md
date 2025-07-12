@@ -52,9 +52,6 @@ Eventually, I found my sweet spot: **Google Keep.**
 Lightweight, syncs across devices, opens instantly, even while walking.
 
 But there’s a trick…
-
-
-
 ### The Simple `#Hashtag` Trick
 To make your Keep notes findable, **add a `#` tag at the end of your note**.
 
