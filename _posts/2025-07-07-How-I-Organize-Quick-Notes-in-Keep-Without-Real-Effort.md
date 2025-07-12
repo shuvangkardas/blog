@@ -23,7 +23,6 @@ Because I had no frictionless place to store it.
 Sound familiar? I guess  so!
 
 That frustration pushed me to look for a simple, zero-barrier way to **capture thoughts on the go**—without overthinking, without opening ten apps, and without getting distracted.
-
 ### Fleeting Notes
 Fleeting notes changed the game for me.
 
@@ -57,7 +56,6 @@ But there’s a trick…
 
 
 ### The Simple `#Hashtag` Trick
-
 To make your Keep notes findable, **add a `#` tag at the end of your note**.
 
 Let’s say you had an idea about YouTube scripting.  
