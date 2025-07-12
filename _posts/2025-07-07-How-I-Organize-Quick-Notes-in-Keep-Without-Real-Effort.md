@@ -42,7 +42,6 @@ I don’t _keep_ all of them.
 Once a fleeting note is processed—turned into a proper note, task, or discarded—I either delete it or archive it.
 
 ### But Where Do I Store Them?
-
 Now here's the next pain point.  
 People often say, “But if I take a _lot_ of notes, how do I _find_ anything later?”
 
