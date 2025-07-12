@@ -38,7 +38,6 @@ That moment changed how I think about value.
 
  {% include newsletter.html %}
 ## The Second Story: The $10,000 Feature
-
 A few years later, I heard a story from the software world. A company had just launched a shiny new product.
 
 An engineer went to demo it to a client. The client asked, "Can I export the data to Excel?"

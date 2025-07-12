@@ -20,7 +20,7 @@ And just like that, the moment passes.
 Because I didn’t write it down.  
 Because I had no frictionless place to store it.
 
-Sound familiar?
+Sound familiar? I guess  so!
 
 That frustration pushed me to look for a simple, zero-barrier way to **capture thoughts on the go**—without overthinking, without opening ten apps, and without getting distracted.
 
@@ -40,7 +40,6 @@ I’ve learned to catch them:
 And here’s the thing:  
 I don’t _keep_ all of them.  
 Once a fleeting note is processed—turned into a proper note, task, or discarded—I either delete it or archive it.
-
 ### But Where Do I Store Them?
 Now here's the next pain point.  
 People often say, “But if I take a _lot_ of notes, how do I _find_ anything later?”
@@ -54,6 +53,8 @@ Eventually, I found my sweet spot: **Google Keep.**
 Lightweight, syncs across devices, opens instantly, even while walking.
 
 But there’s a trick…
+
+
 
 ### The Simple `#Hashtag` Trick
 
