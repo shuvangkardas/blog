@@ -37,7 +37,6 @@ I’ve learned to catch them:
 - During walks (I tell Google Assistant to take a note)
 - While reading (underline a sentence? That’s a fleeting note in disguise)
 
-
 And here’s the thing:  
 I don’t _keep_ all of them.  
 Once a fleeting note is processed—turned into a proper note, task, or discarded—I either delete it or archive it.
