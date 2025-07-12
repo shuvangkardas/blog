@@ -8,7 +8,7 @@ categories:
 tags: 
 status:
 ---
-![Image](/assets/images/Pasted-image-20250707190810.png)
+![Pasted image 20250707190810.png](/assets/images/Pasted-image-20250707190810.png)
 
 It always starts the same.
 
@@ -25,7 +25,6 @@ Sound familiar?
 That frustration pushed me to look for a simple, zero-barrier way to **capture thoughts on the go**—without overthinking, without opening ten apps, and without getting distracted.
 
 ### Fleeting Notes
-
 Fleeting notes changed the game for me.
 
 These are not polished thoughts. They’re not organized.  
@@ -68,6 +67,10 @@ Just end the note with `#quote` or `#content`.
 Later, when you search `#quote` in Keep—boom—all your fleeting notes related to that pop up.
 
 No more hunting. No more forgetting.
+
+**Real stories. Practical lessons. Right in your inbox.**  
+No spam—just once a week.  
+{% include newsletter.html %}
 
 ---
 ### TL:DR
