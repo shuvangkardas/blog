@@ -21,7 +21,6 @@ I was sampling the 50Hs sine wave and sending the signal through serial communic
 
 ![Image](/assets/images/Pasted-image-20220807084424.png)
 
-
 Consider the baud rate of serial communication is 9600 bits per second. If you want to send a single byte like character ‘X’ to the PC, it takes around 1ms for a 9600 baud rat. Here are 8 data bits, 1 start bit, and 1 stop bit. So comprises 10 bits including overhead for sending each byte of data. Therefore, 10 bits take around 1ms. That’s why it is not a good idea to print analog values just after sampling.
 
 The same thing happens for people working with Line following robots or working with a robotic project for the first time. After reading the analog signal, they print a lot of serial logs into the terminal and expect everything will work fine. So it is very important to remember how to use serial printing in time-critical code.
