@@ -63,7 +63,7 @@ Later, when you search `#quote` in Keep—boom—all your fleeting notes related
 No more hunting. No more forgetting.
 
 **Real stories. Practical lessons. Right in your inbox!**  
-No spam—just once a week 😃!
+No spam—just once a week !!!
 {% include newsletter.html %}
 
 ---
