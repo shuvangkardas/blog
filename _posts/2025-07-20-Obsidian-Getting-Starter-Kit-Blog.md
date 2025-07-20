@@ -22,11 +22,11 @@ After creating 6,000+ notes, completing my PhD, and helping hundreds of beginner
 
 
 Here is everything you need to get started, no paywalls, no overwhelm.
-### [Download Obsidian Starter Kit Updated Version]()
->I update this vault regularly. It might have bugs, issues. 
-
 ### [Download Obsidian Starter Kit Last Stable Version]()
 > This is tested and most stable one. 
+
+### [Download Obsidian Starter Kit Updated Version]()
+>I update this vault regularly. It might have bugs, issues. 
 
 ## What’s Included in This Kit
 - Minimal setup 
