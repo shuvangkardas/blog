@@ -1,5 +1,5 @@
 ---
-title: Obsidian Starter Kit
+title: Free Obsidian Starter Kit – A Ready-to-Use Vault for Beginners
 permalink: free-obsidian-starter-kit
 date: 2025-07-20
 excerpt: After creating 6,000+ notes, finishing my PhD, and helping hundreds of beginners, I saw the same six obstacles again and again, Markdown confusion, attachment mess, plugin overload, sync issues, and setup fatigue. That’s why I built the Free Obsidian Starter Kit,  a clean, beginner-friendly vault with all the essentials pre-configured.
@@ -8,7 +8,7 @@ categories:
 tags: 
 status:
 ---
-# Free Obsidian Starter Kit – A Ready-to-Use Vault for Beginners
+
 
 After creating 6,000+ notes, completing my PhD, and helping hundreds of beginners through making YouTube videos, I noticed the same six pain points come up again and again. So, I built a solution, the **Free Obsidian Starter Kit**.
 
