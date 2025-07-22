@@ -22,11 +22,17 @@ After creating 6,000+ notes, completing my PhD, and helping hundreds of beginner
 
 
 Here is everything you need to get started, no paywalls, no overwhelm.
-### [Download Obsidian Starter Kit Last Stable Version]()
+### [Download Obsidian Starter Kit Last Stable Version](https://github.com/shuvangkardas/obsidian-starter-kit)
 > This is tested and most stable one. 
 
-### [Download Obsidian Starter Kit Updated Version]()
+### [Download Obsidian Starter Kit Updated Version](https://github.com/shuvangkardas/obsidian-starter-kit)
 >I update this vault regularly. It might have bugs, issues. 
+
+## How to use the vault
+- Download the vault in zip format
+- Unzip the vault
+- Go to bottom left>Click on your vault>Manage Vaults>Open folder as vault
+  ![Pasted image 20250720170634.png](/assets/images/Pasted-image-20250720170634.png)
 
 ## What’s Included in This Kit
 - Minimal setup 
@@ -59,7 +65,7 @@ Personal story here...
 5. **Understand Obsidian’s core purpose.** It’s not a team tool. It’s _your second brain_—a space for thinking, not collaborating with team.
 
 
-![[Pasted image 20250720150109.png]]
+
 
 ---
 
