@@ -10,13 +10,13 @@ status:
 ---
 
 
-Have you ever wanted to peek into the bytes flying between Phasor Measurement Units (PMUs) and PDCs?
-What if you could _rebuild_ those packets, _inject false data_, and _test_ the grid’s resilience against real cyberattacks?
-Welcome to **pySynphasor** — a powerful, open-source Python tool that enables packet-level manipulation of **IEEE C37.118.2** messages used in synchrophasor-based smart grids.
+Have you ever wanted to peek into the bytes flying between Phasor Measurement Units (PMUs) and Phasor Data Concentrator (PDC)
+What if you could rebuild those packets, inject false data, and test the grid’s resilience against real cyberattacks?
+Welcome to pySynphasor , a powerful, open-source Python tool that enables packet-level manipulation of IEEE C37.118.2 messages used in synchrophasor-based smart grids.
 
 ---
 
-## ⚙️ What is pySynphasor?
+## What is pySynphasor?
 
 `pySynphasor` is a Python module built on top of [Scapy](https://scapy.net/), tailored for:
 
@@ -31,13 +31,15 @@ Welcome to **pySynphasor** — a powerful, open-source Python tool that enables 
 pip install pySynphasor
 ```
 
-🧠 Full docs + examples: [https://shuvangkardas.com/pySynphasor](https://shuvangkardas.com/pySynphasor)
+
+Full docs + examples: [https://shuvangkardas.com/pySynphasor](https://shuvangkardas.com/pySynphasor)
+GitHub Repository: https://github.com/shuvangkardas/pySynphasor
 
 ---
 
-## 🧪 1. Build a C37.118.2 Command Packet in Python
+## 1. Build a C37.118.2 Command Packet in Python
 
-Let’s start simple — construct a basic command packet and inspect it.
+Let’s start simple,  construct a basic command packet and inspect it.
 
 ### Code
 
@@ -70,7 +72,7 @@ print("Raw Bytes:", raw(cmdPkt))
 Raw Bytes: b'\xaaB\x00\x12\x00\n\x00\x00\x00\x00\x00\x00\x00\x00\x00\x05\xb6\xb3'
 ```
 
-🧩 Just two lines to build a fully valid C37.118 command frame!
+ust two lines to build a fully valid C37.118 command frame!
 
 ---
 ## 🔍 2. Dissect Real Packets from a Testbed
@@ -87,10 +89,9 @@ Output shows layers like:
 - IP/TCP
 - IEEE C37.118.2 Common Frame
 - Phasor Data (complex numbers)
-    
 ---
 
-## 🎯 3. Inject a False Data Attack (FDIA)
+## 3. Inject a False Data Attack (FDIA)
 
 Imagine intercepting a synchrophasor packet and injecting **fake phasor measurements**. Here’s how we did that in our testbed:
 
@@ -115,7 +116,7 @@ send(packet)
 
 ---
 
-## 🕵️ 4. Man-in-the-Middle (MITM) Attack Setup
+## 4. Man-in-the-Middle (MITM) Attack Setup
 
 We deployed 3 VMs: µPMU, pyPDC, and attacker. Using ARP spoofing, we rerouted traffic via the attacker.
 
@@ -126,37 +127,31 @@ We deployed 3 VMs: µPMU, pyPDC, and attacker. Using ARP spoofing, we rerouted t
 |PMU|10.0.2.4|08:00:27:c9:f7:61|08:00:27:a7:1b:c3|
 |PDC|10.0.2.7|08:00:27:69:58:64|08:00:27:a7:1b:c3|
 
-📸 ARP Table Comparison:  
-![ARP Poisoning](https://shuvangkardas.com/pySynphasor/assets/arp_poisoning.png)
-
 ---
 
-## 💡 pySynphasor vs Other Tools
+## pySynphasor vs Other Tools
 
-|Feature|pyPMU|pySynphasor ✅|
-|---|---|---|
-|Build C37.118.2 Packets|✅|✅|
-|Dissect Captured Packets|❌|✅|
-|Perform FDIA/MITM|❌|✅|
-|Includes pyPDC (multi-PMU)|❌|✅|
-|Scapy-powered for full control|❌|✅|
+| Feature                        | pyPMU | pySynphasor ✅ |
+| ------------------------------ | ----- | ------------- |
+| Build C37.118.2 Packets        | ✅     | ✅             |
+| Dissect Captured Packets       | ❌     | ✅             |
+| Perform FDIA/MITM              | ❌     | ✅             |
+| Includes pyPDC (multi-PMU)     | ❌     | ✅             |
+| Scapy-powered for full control | ❌     | ✅             |
 
 ---
 
 ## 📈 Future Work
 
 We're expanding pySynphasor to:
-
 - Support **IEC 61850-90-5** protocol
-    
 - Add **fuzz testing** capabilities
-    
 - Build a **GUI dashboard** for researchers
-    
+
 
 ---
 
-## 🧠 Conclusion
+## Conclusion
 
 **pySynphasor** is more than a packet tool — it's a testbed enabler, a vulnerability scanner, and a research catalyst for cyber-physical power systems.
 
@@ -167,15 +162,55 @@ We're expanding pySynphasor to:
 👉 If this helped you or sparked ideas, don’t forget to ⭐ the repo and share!
 
 
+## How to cite the paper
+1. S. C. Das, T. Vu, H. Ginn, and K. Schoder, "Implementation of IEEE C37. 118 Packet Manipulation Tool, pySynphasor for Power System Security Evaluation," in 2023 IEEE Electric Ship Technologies Symposium (ESTS), 2023, pp. 542-548.
+2. S. C. Das and T. Vu, “Scalable Cyber-Physical Testbed for Cybersecurity Evaluation of Synchrophasors in Power Systems,” _arXiv preprint arXiv:2207.12610_, 2022.
+
+## How to contribute
+- Please check TODO.md to find out where you can help us.
+- Fork this repo.
+- Create new branch: git checkout -b fixing-stupid-bug
+- Commit changes: git commit -m 'There you go! Fixed the  stupid bug.'
+- Push changes to the branch: git push origin fixing-your-stupid-bug
+- Submit pull request.
+
 ---
 
-Shuvangkar Das, PhD, Knoxville, Tennessee, USA
-### ☎ Connect with me
-- Twitter: [https://twitter.com/shuvangkar_das](https://twitter.com/shuvangkar_das)
-- LinkedIn: [https://www.linkedin.com/in/ShuvangkarDas/](https://www.linkedin.com/in/ShuvangkarDas/)
-- YouTube: [https://www.youtube.com/ShuvangkarDas](https://www.youtube.com/ShuvangkarDas)
 
+---
 
+**Real stories. Practical lessons. Right in your inbox.**  
+No spam—just once a week.  
+{% include newsletter.html %}
+
+---
+### 👋 About Me
+Hi, I’m **Shuvangkar Das** — a power systems researcher with a Ph.D. in Electrical Engineering, currently working as a Research Scientist. I work at the intersection of power electronics, inverter-based DERs (IBRs), and AI to help build smarter, greener, and more stable electric grids. 
+
+My work spans large-scale EMT simulations, firmware development, reinforcement learning, and hardware prototyping. Beyond engineering, I’m also a [YouTuber](https://www.youtube.com/@ShuvangkarDas) and content creator — sharing hands-on insights on productivity, research, and knowledge management. My goal is simple: to make complex ideas more accessible and actionable for everyone.
+
+<p><strong>Connect with me:<br></strong>
+<a href="https://www.youtube.com/@ShuvangkarDas" target="_blank">
+    <img src="https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube">
+  </a>
+  <a href="https://www.linkedin.com/in/ShuvangkarDas" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin">
+  </a>
+  <a href="https://newsletter.shuvangkardas.com" target="_blank">
+    <img src="https://img.shields.io/badge/Newsletter-Subscribe-blue?style=for-the-badge">
+  </a>
+  <a href="https://twitter.com/shuvangkar_das" target="_blank">
+    <img src="https://img.shields.io/badge/Twitter-Follow-blue?style=for-the-badge&logo=twitter">
+  </a>
+  
+  <a href="https://github.com/shuvangkardas" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github">
+  </a>
+  <a href="https://blog.shuvangkardas.com" target="_blank">
+    <img src="https://img.shields.io/badge/Blog-Read-blueviolet?style=for-the-badge">
+  </a>
+  
+</p>
 
 
 
