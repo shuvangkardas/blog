@@ -8,7 +8,7 @@ categories:
 tags: 
 status:
 ---
-
+![Free-Obsidian-Starter-Kit-by-Shuvangkar-Das(2).png](/assets/images/Free-Obsidian-Starter-Kit-by-Shuvangkar-Das(2).png)
 
 After creating 6,000+ notes, completing my PhD, and helping hundreds of beginners through making YouTube videos, I noticed the same six pain points come up again and again. So, I built a solution, the **Free Obsidian Starter Kit**.
 
@@ -103,6 +103,6 @@ My work spans large-scale EMT simulations, firmware development, reinforcement l
 </p>
 
 ### 📚 Obsidian Notes I Used for This Blog
-[[Obsidian Starter Kit]]
+[[Obsidian Starter Kit Dev Day 1]]
 
 
