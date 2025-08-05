@@ -112,6 +112,7 @@ My work spans large-scale EMT simulations, firmware development, reinforcement l
 </p>
 
 ### 📚 Obsidian Notes I Used for This Blog
-[[IEEE PES GM and My Decision Paralysis]]
+- https://faculty.washington.edu/jdb/345/345%20Articles/Iyengar%20%26%20Lepper%20(2000).pdf
+- [[IEEE PES GM and My Decision Paralysis]]
 
 
