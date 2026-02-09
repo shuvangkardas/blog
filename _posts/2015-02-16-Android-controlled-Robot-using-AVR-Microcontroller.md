@@ -2,7 +2,7 @@
 title: Android controlled Robot using AVR Microcontroller
 permalink: Android-controlled-Robot-using-AVR-Microcontroller
 date: 2015-02-16
-excerpt: Learn how to build an Android-controlled robot using an AVR microcontroller and Bluetooth. This step-by-step guide includes the Android app, circuit schematics, PCB layout, source code, and mechanical design – everything you need to create your own smart robot.
+excerpt: Learn how to build Android-controlled robot using an AVR microcontroller and Bluetooth. This step-by-step guide includes the Android app, circuit schematics, PCB layout, source code, and mechanical design – everything you need to create your own smart robot.
 type: Blog
 categories: 
 tags: 
