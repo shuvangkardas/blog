@@ -125,7 +125,7 @@ Start today: create a new vault, set up your ten categories, and link your first
 
 **Real stories. Practical lessons. Right in your inbox.**  
 No spam—just once a week.  
-{%- include newsletter.html %}
+{% include newsletter.html %}
 
 ---
 
