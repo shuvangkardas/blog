@@ -1,4 +1,5 @@
 ---
+title: "The Ultimate Obsidian Setup for PhD Students & Academics (Second Brain for Researchers)"
 permalink: the-ultimate-obsidian-setup-for-phd-students
 categories:
     - Productivity
